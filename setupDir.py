@@ -10,6 +10,8 @@ folders = [
     "data/processed",
     "data/cache",
     "configs/samples",
+    "models"
+    "scripts"
 ]
 
 # Create folder based on a variable folders
@@ -17,7 +19,7 @@ for folder in folders:
     (THIS_FOLDER / folder).mkdir(parents=True, exist_ok=True)
 print('Folders successfully created')
 
-for folder in ["data/input", "data/output", "data/processed", "data/cache"]:
+for folder in ["data/input", "data/output", "data/processed", "data/cache", "models", "scripts"]:
     Path(f"{folder}/.gitkeep").touch(exist_ok=True)
 print('.gitkeep files created in folder data')
 

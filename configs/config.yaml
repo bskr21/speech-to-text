@@ -1,0 +1,71 @@
+project:
+  name: "offline-voice-to-text"
+privacy:
+  offline_strict: true
+  allow_env_proxy: false
+input:
+  source_path: "data/input"
+  target_sample_rate: 16000
+  target_channels: 1
+  target_format: "wav"
+enhancement:
+  enable: true
+  rnnoise_enable: true
+  spectral_gating_enable: true
+  agc_enable: true
+  rnnoise:
+    frame_ms: 20
+  spectral_gating:
+    n_fft: 1024
+    hop_length: 256
+    win_length: 1024
+    noise_profile_duration_s: 2.0
+    threshold_db: -35
+    attenuation_db: -15
+  normalize:
+    target_peak_dbfs: -1.0
+    apply_agc: true
+vad:
+  enable: true
+  webrtc_mode: 2
+  frame_ms: 30
+  max_chunk_s: 120.0
+  min_speech_s: 0.3
+  min_silence_s: 0.2
+  overlap_s: 0.3
+diarization:
+  enable: true
+  backend: "resemblyzer"
+  min_cluster_size: 12
+  threshold: 0.25
+  smoothing_s: 0.5
+asr:
+  backend: "faster_whisper"
+  model_size: "turbo"
+  compute_type: "int8"
+  beam_size: 5
+  language_hints: ["id", "en"]
+  word_timestamps: false
+scheduler:
+  workers: 1
+  batch_segments: 4
+  priority_stage: "asr"
+postprocess:
+  punctuation_restore_enable: false
+  normalization_rules:
+    collapse_whitespace: true
+    strip_repeated_punctuation: true
+export:
+  formats: ["json", "srt", "vtt", "docx"]
+  include_speaker_labels: true
+  include_timestamps: true
+checkpoint:
+  enable: true
+  storage_path: "data/cache/state.json"
+logging:
+  level: "INFO"
+  file_path: "data/cache/pipeline.log"
+models:
+  whisper_dir: "models/whisper"
+  resemblyzer_dir: "models/resemblyzer"
+  rnnoise_lib: "models/rnnoise/librnnoise.dylib"

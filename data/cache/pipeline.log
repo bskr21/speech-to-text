@@ -1,0 +1,155 @@
+2026-02-12 16:34:41,852 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-12 16:34:41,852 [INFO] Found 1 audio files to process
+2026-02-12 16:34:46,838 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202 Enterprise AI Capability.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202 Enterprise AI Capability/RADIT ITD-20260202 Enterprise AI Capability_16k_mono.wav
+2026-02-12 16:34:46,933 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202 Enterprise AI Capability/RADIT ITD-20260202 Enterprise AI Capability_enhanced.wav
+2026-02-12 16:34:46,960 [INFO] Created 2 segments in /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202 Enterprise AI Capability/segments
+2026-02-12 16:34:46,961 [INFO] Loading Whisper model turbo (compute_type=int8) from models/whisper
+2026-02-12 16:34:46,961 [INFO] Found model.bin in models/whisper/turbo
+2026-02-12 16:34:47,552 [INFO] HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-02-12 16:34:47,888 [INFO] HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-02-12 16:34:49,803 [INFO] Processing audio with duration 00:45.056
+2026-02-12 16:34:54,567 [INFO] Detected language 'id' with probability 0.99
+2026-02-12 16:35:10,223 [INFO] Processing audio with duration 00:31.953
+2026-02-12 16:35:14,979 [INFO] Detected language 'id' with probability 1.00
+2026-02-12 16:35:26,831 [INFO] Exported JSON: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202 Enterprise AI Capability/RADIT ITD-20260202 Enterprise AI Capability.json
+2026-02-12 16:35:26,832 [INFO] Exported SRT: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202 Enterprise AI Capability/RADIT ITD-20260202 Enterprise AI Capability.srt
+2026-02-12 16:35:26,832 [INFO] Completed processing for /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202 Enterprise AI Capability.m4a
+2026-02-12 16:43:12,082 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-12 16:43:12,083 [INFO] Found 1 audio files to process
+2026-02-12 16:43:12,083 [INFO] Resume: using existing transcoded /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202 Enterprise AI Capability/RADIT ITD-20260202 Enterprise AI Capability_16k_mono.wav
+2026-02-12 16:43:12,083 [INFO] Resume: using existing enhanced /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202 Enterprise AI Capability/RADIT ITD-20260202 Enterprise AI Capability_enhanced.wav
+2026-02-12 16:43:12,083 [INFO] Resume: 2 segments loaded from checkpoint
+2026-02-12 16:43:12,083 [INFO] Resume: segments already transcribed
+2026-02-12 16:43:12,083 [INFO] Exported JSON: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202 Enterprise AI Capability/RADIT ITD-20260202 Enterprise AI Capability.json
+2026-02-12 16:43:12,083 [INFO] Exported SRT: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202 Enterprise AI Capability/RADIT ITD-20260202 Enterprise AI Capability.srt
+2026-02-12 16:43:12,083 [INFO] Completed processing for /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202 Enterprise AI Capability.m4a
+2026-02-12 16:45:42,025 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-12 16:45:42,025 [INFO] Found 1 audio files to process
+2026-02-12 16:45:42,026 [INFO] Resume: using existing transcoded /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202 Enterprise AI Capability/RADIT ITD-20260202 Enterprise AI Capability_16k_mono.wav
+2026-02-12 16:45:42,026 [INFO] Resume: using existing enhanced /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202 Enterprise AI Capability/RADIT ITD-20260202 Enterprise AI Capability_enhanced.wav
+2026-02-12 16:45:42,026 [INFO] Resume: 2 segments loaded from checkpoint
+2026-02-12 16:45:42,026 [INFO] Resume: segments already transcribed
+2026-02-12 16:45:42,026 [INFO] Exported JSON: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202 Enterprise AI Capability/RADIT ITD-20260202 Enterprise AI Capability.json
+2026-02-12 16:45:42,026 [INFO] Exported SRT: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202 Enterprise AI Capability/RADIT ITD-20260202 Enterprise AI Capability.srt
+2026-02-12 16:45:42,026 [INFO] Completed processing for /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202 Enterprise AI Capability.m4a
+2026-02-12 16:50:35,615 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-12 16:50:35,616 [INFO] Found 1 audio files to process
+2026-02-12 16:50:35,616 [INFO] Resume: using existing transcoded /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202 Enterprise AI Capability/RADIT ITD-20260202 Enterprise AI Capability_16k_mono.wav
+2026-02-12 16:50:35,616 [INFO] Resume: using existing enhanced /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202 Enterprise AI Capability/RADIT ITD-20260202 Enterprise AI Capability_enhanced.wav
+2026-02-12 16:50:35,616 [INFO] Resume: 2 segments loaded from checkpoint
+2026-02-12 16:50:35,616 [INFO] Resume: segments already transcribed
+2026-02-12 16:50:35,616 [INFO] Exported JSON: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202 Enterprise AI Capability/RADIT ITD-20260202 Enterprise AI Capability.json
+2026-02-12 16:50:35,617 [INFO] Exported SRT: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202 Enterprise AI Capability/RADIT ITD-20260202 Enterprise AI Capability.srt
+2026-02-12 16:50:35,617 [INFO] Completed processing for /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202 Enterprise AI Capability.m4a
+2026-02-12 16:51:14,982 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-12 16:51:14,983 [INFO] Found 1 audio files to process
+2026-02-12 16:51:14,983 [INFO] Resume: using existing transcoded /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202 Enterprise AI Capability/RADIT ITD-20260202 Enterprise AI Capability_16k_mono.wav
+2026-02-12 16:51:14,983 [INFO] Resume: using existing enhanced /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202 Enterprise AI Capability/RADIT ITD-20260202 Enterprise AI Capability_enhanced.wav
+2026-02-12 16:51:14,983 [INFO] Resume: 2 segments loaded from checkpoint
+2026-02-12 16:51:14,983 [INFO] Resume: segments already transcribed
+2026-02-12 16:51:14,983 [INFO] Exported JSON: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202 Enterprise AI Capability/RADIT ITD-20260202 Enterprise AI Capability.json
+2026-02-12 16:51:14,984 [INFO] Exported SRT: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202 Enterprise AI Capability/RADIT ITD-20260202 Enterprise AI Capability.srt
+2026-02-12 16:51:14,984 [INFO] Completed processing for /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202 Enterprise AI Capability.m4a
+2026-02-12 16:52:45,391 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-12 16:52:45,391 [INFO] Found 1 audio files to process
+2026-02-12 16:52:45,392 [INFO] Resume: using existing transcoded /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202 Enterprise AI Capability/RADIT ITD-20260202 Enterprise AI Capability_16k_mono.wav
+2026-02-12 16:52:45,392 [INFO] Resume: using existing enhanced /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202 Enterprise AI Capability/RADIT ITD-20260202 Enterprise AI Capability_enhanced.wav
+2026-02-12 16:52:45,392 [INFO] Resume: 2 segments loaded from checkpoint
+2026-02-12 16:52:45,392 [INFO] Resume: segments already transcribed
+2026-02-12 16:52:45,392 [INFO] Exported JSON: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202 Enterprise AI Capability/RADIT ITD-20260202 Enterprise AI Capability.json
+2026-02-12 16:52:45,392 [INFO] Exported SRT: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202 Enterprise AI Capability/RADIT ITD-20260202 Enterprise AI Capability.srt
+2026-02-12 16:52:45,392 [INFO] Completed processing for /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202 Enterprise AI Capability.m4a
+2026-02-12 16:55:19,309 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-12 16:55:19,310 [INFO] Found 1 audio files to process
+2026-02-12 16:55:19,310 [INFO] Resume: using existing transcoded /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202 Enterprise AI Capability/RADIT ITD-20260202 Enterprise AI Capability_16k_mono.wav
+2026-02-12 16:55:19,310 [INFO] Resume: using existing enhanced /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202 Enterprise AI Capability/RADIT ITD-20260202 Enterprise AI Capability_enhanced.wav
+2026-02-12 16:55:19,310 [INFO] Resume: 2 segments loaded from checkpoint
+2026-02-12 16:55:19,310 [INFO] Resume: segments already transcribed
+2026-02-12 16:55:19,310 [INFO] Exported JSON: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202 Enterprise AI Capability/RADIT ITD-20260202 Enterprise AI Capability.json
+2026-02-12 16:55:19,310 [INFO] Exported SRT: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202 Enterprise AI Capability/RADIT ITD-20260202 Enterprise AI Capability.srt
+2026-02-12 16:55:19,310 [INFO] Completed processing for /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202 Enterprise AI Capability.m4a
+2026-02-12 16:59:46,740 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-12 16:59:46,740 [INFO] Found 1 audio files to process
+2026-02-12 16:59:47,161 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202 Enterprise AI Capability.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202 Enterprise AI Capability/RADIT ITD-20260202 Enterprise AI Capability_16k_mono.wav
+2026-02-12 16:59:48,933 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202 Enterprise AI Capability/RADIT ITD-20260202 Enterprise AI Capability_enhanced.wav
+2026-02-12 16:59:49,052 [INFO] Created 17 segments in /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202 Enterprise AI Capability/segments
+2026-02-12 16:59:49,052 [INFO] Loading Whisper model turbo (compute_type=int8) from models/whisper
+2026-02-12 16:59:49,052 [INFO] Found model.bin in models/whisper/turbo
+2026-02-12 16:59:49,589 [INFO] HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-02-12 16:59:49,866 [INFO] HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-02-12 16:59:51,711 [INFO] Processing audio with duration 02:00.000
+2026-02-12 16:59:56,340 [INFO] Detected language 'id' with probability 0.99
+2026-02-12 17:00:32,755 [INFO] Processing audio with duration 02:00.000
+2026-02-12 17:00:37,943 [INFO] Detected language 'id' with probability 0.99
+2026-02-12 17:01:19,774 [INFO] Processing audio with duration 02:00.000
+2026-02-12 17:01:25,912 [INFO] Detected language 'id' with probability 0.99
+2026-02-12 17:02:50,232 [INFO] Processing audio with duration 02:00.000
+2026-02-12 17:02:56,400 [INFO] Detected language 'id' with probability 1.00
+2026-02-12 17:03:45,492 [INFO] Processing audio with duration 02:00.000
+2026-02-12 17:03:51,475 [INFO] Detected language 'id' with probability 0.99
+2026-02-12 17:04:56,302 [INFO] Processing audio with duration 02:00.000
+2026-02-12 17:05:02,298 [INFO] Detected language 'id' with probability 1.00
+2026-02-12 17:05:57,935 [INFO] Processing audio with duration 02:00.000
+2026-02-12 17:06:04,119 [INFO] Detected language 'id' with probability 0.99
+2026-02-12 17:07:06,525 [INFO] Processing audio with duration 02:00.000
+2026-02-12 17:07:13,257 [INFO] Detected language 'id' with probability 1.00
+2026-02-12 17:08:14,006 [INFO] Processing audio with duration 02:00.000
+2026-02-12 17:08:21,237 [INFO] Detected language 'id' with probability 1.00
+2026-02-12 17:09:18,542 [INFO] Processing audio with duration 02:00.000
+2026-02-12 17:09:24,648 [INFO] Detected language 'id' with probability 1.00
+2026-02-12 17:10:40,508 [INFO] Processing audio with duration 02:00.000
+2026-02-12 17:10:46,603 [INFO] Detected language 'id' with probability 0.99
+2026-02-12 17:11:30,125 [INFO] Processing audio with duration 02:00.000
+2026-02-12 17:11:36,483 [INFO] Detected language 'id' with probability 0.99
+2026-02-12 17:13:05,562 [INFO] Processing audio with duration 02:00.000
+2026-02-12 17:13:14,724 [INFO] Detected language 'id' with probability 0.99
+2026-02-12 17:14:15,434 [INFO] Processing audio with duration 02:00.000
+2026-02-12 17:14:22,828 [INFO] Detected language 'id' with probability 1.00
+2026-02-12 17:15:17,752 [INFO] Processing audio with duration 02:00.000
+2026-02-12 17:15:23,722 [INFO] Detected language 'id' with probability 0.95
+2026-02-12 17:15:55,091 [INFO] Processing audio with duration 02:00.000
+2026-02-12 17:16:01,127 [INFO] Detected language 'en' with probability 0.58
+2026-02-12 17:17:09,499 [INFO] Processing audio with duration 00:26.321
+2026-02-12 17:17:16,147 [INFO] Detected language 'id' with probability 0.99
+2026-02-12 17:17:33,095 [INFO] Exported JSON: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202 Enterprise AI Capability/RADIT ITD-20260202 Enterprise AI Capability.json
+2026-02-12 17:17:33,096 [INFO] Exported SRT: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202 Enterprise AI Capability/RADIT ITD-20260202 Enterprise AI Capability.srt
+2026-02-12 17:17:33,096 [INFO] Completed processing for /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202 Enterprise AI Capability.m4a
+2026-02-12 18:14:45,971 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-12 18:14:45,972 [INFO] Found 2 audio files to process
+2026-02-12 18:14:45,972 [INFO] Resume: using existing transcoded /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202 Enterprise AI Capability/RADIT ITD-20260202 Enterprise AI Capability_16k_mono.wav
+2026-02-12 18:14:45,973 [INFO] Resume: using existing enhanced /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202 Enterprise AI Capability/RADIT ITD-20260202 Enterprise AI Capability_enhanced.wav
+2026-02-12 18:14:45,973 [INFO] Resume: 17 segments loaded from checkpoint
+2026-02-12 18:14:45,973 [INFO] Resume: segments already transcribed
+2026-02-12 18:14:45,973 [INFO] Exported JSON: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202 Enterprise AI Capability/RADIT ITD-20260202 Enterprise AI Capability.json
+2026-02-12 18:14:45,973 [INFO] Exported SRT: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202 Enterprise AI Capability/RADIT ITD-20260202 Enterprise AI Capability.srt
+2026-02-12 18:14:45,973 [INFO] Completed processing for /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202 Enterprise AI Capability.m4a
+2026-02-12 18:14:46,276 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202- EA Update Pasca RADIR.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202- EA Update Pasca RADIR/RADIT ITD-20260202- EA Update Pasca RADIR_16k_mono.wav
+2026-02-12 18:14:47,365 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202- EA Update Pasca RADIR/RADIT ITD-20260202- EA Update Pasca RADIR_enhanced.wav
+2026-02-12 18:14:47,448 [INFO] Created 10 segments in /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202- EA Update Pasca RADIR/segments
+2026-02-12 18:14:47,449 [INFO] Loading Whisper model turbo (compute_type=int8) from models/whisper
+2026-02-12 18:14:47,449 [INFO] Found model.bin in models/whisper/turbo
+2026-02-12 18:14:47,958 [INFO] HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-02-12 18:14:48,225 [INFO] HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-02-12 18:14:50,237 [INFO] Processing audio with duration 02:00.000
+2026-02-12 18:14:54,844 [INFO] Detected language 'id' with probability 1.00
+2026-02-12 18:15:30,861 [INFO] Processing audio with duration 02:00.000
+2026-02-12 18:15:36,095 [INFO] Detected language 'id' with probability 1.00
+2026-02-12 18:16:14,542 [INFO] Processing audio with duration 02:00.000
+2026-02-12 18:16:20,370 [INFO] Detected language 'id' with probability 1.00
+2026-02-12 18:16:57,875 [INFO] Processing audio with duration 02:00.000
+2026-02-12 18:17:03,491 [INFO] Detected language 'id' with probability 1.00
+2026-02-12 18:17:49,255 [INFO] Processing audio with duration 02:00.000
+2026-02-12 18:17:54,858 [INFO] Detected language 'id' with probability 1.00
+2026-02-12 18:18:43,781 [INFO] Processing audio with duration 02:00.000
+2026-02-12 18:18:49,622 [INFO] Detected language 'id' with probability 1.00
+2026-02-12 18:19:39,026 [INFO] Processing audio with duration 02:00.000
+2026-02-12 18:19:45,095 [INFO] Detected language 'id' with probability 1.00
+2026-02-12 18:20:30,572 [INFO] Processing audio with duration 02:00.000
+2026-02-12 18:20:39,088 [INFO] Detected language 'id' with probability 1.00
+2026-02-12 18:21:48,658 [INFO] Processing audio with duration 02:00.000
+2026-02-12 18:21:58,860 [INFO] Detected language 'id' with probability 1.00
+2026-02-12 18:23:06,528 [INFO] Processing audio with duration 01:31.783
+2026-02-12 18:23:13,795 [INFO] Detected language 'id' with probability 1.00
+2026-02-12 18:23:59,909 [INFO] Exported JSON: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202- EA Update Pasca RADIR/RADIT ITD-20260202- EA Update Pasca RADIR.json
+2026-02-12 18:23:59,910 [INFO] Exported SRT: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202- EA Update Pasca RADIR/RADIT ITD-20260202- EA Update Pasca RADIR.srt
+2026-02-12 18:23:59,910 [INFO] Completed processing for /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202- EA Update Pasca RADIR.m4a
