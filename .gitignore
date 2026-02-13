@@ -1,0 +1,18 @@
+# Big model files we never want on GitHub
+models/whisper/turbo/model.bin
+models/whisper/turbo/*.bin
+models/whisper/turbo/*.safetensors
+models/whisper/turbo/*.pt
+models/whisper/turbo/*.pth
+
+# Cache files we don't need on GitHub
+data/cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+
+# Mac junk files - we don't want these on GitHub
+.DS_Store
+*/.DS_Store
