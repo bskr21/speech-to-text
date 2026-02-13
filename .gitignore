@@ -16,3 +16,7 @@ __pycache__/
 # Mac junk files - we don't want these on GitHub
 .DS_Store
 */.DS_Store
+
+# BFG cleanup junk - we don't want these on GitHub
+..bfg-report/
+bfg-1.14.0.jar
