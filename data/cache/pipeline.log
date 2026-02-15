@@ -153,3 +153,551 @@
 2026-02-12 18:23:59,909 [INFO] Exported JSON: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202- EA Update Pasca RADIR/RADIT ITD-20260202- EA Update Pasca RADIR.json
 2026-02-12 18:23:59,910 [INFO] Exported SRT: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202- EA Update Pasca RADIR/RADIT ITD-20260202- EA Update Pasca RADIR.srt
 2026-02-12 18:23:59,910 [INFO] Completed processing for /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202- EA Update Pasca RADIR.m4a
+2026-02-13 15:47:23,577 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-13 15:47:23,577 [INFO] Found 1 audio files to process
+2026-02-13 15:47:23,797 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202-Update Stuck Order TSEL.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL_16k_mono.wav
+2026-02-13 15:47:24,430 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL_enhanced.wav
+2026-02-13 15:47:24,491 [INFO] Created 6 segments in /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202-Update Stuck Order TSEL/segments
+2026-02-13 15:47:24,492 [INFO] Loading Whisper model turbo (compute_type=int8) from models/whisper
+2026-02-13 15:47:24,492 [INFO] Found model.bin in models/whisper/turbo
+2026-02-13 15:47:25,029 [INFO] HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 15:47:25,600 [INFO] HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-02-13 15:47:27,514 [INFO] Processing audio with duration 02:00.000
+2026-02-13 15:47:32,203 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 15:48:11,956 [INFO] Processing audio with duration 02:00.000
+2026-02-13 15:48:17,194 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 15:49:02,940 [INFO] Processing audio with duration 02:00.000
+2026-02-13 15:49:08,441 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 15:49:49,789 [INFO] Processing audio with duration 02:00.000
+2026-02-13 15:49:55,126 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 15:50:40,621 [INFO] Processing audio with duration 02:00.000
+2026-02-13 15:50:46,660 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 15:51:25,775 [INFO] Processing audio with duration 01:05.518
+2026-02-13 15:51:31,192 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 15:51:58,500 [INFO] Exported JSON: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL.json
+2026-02-13 15:51:58,500 [INFO] Exported SRT: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL.srt
+2026-02-13 15:51:58,500 [INFO] Completed processing for /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202-Update Stuck Order TSEL.m4a
+2026-02-13 16:10:48,615 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-13 16:10:48,616 [INFO] Found 1 audio files to process
+2026-02-13 16:10:48,785 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202-Update Stuck Order TSEL.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL_16k_mono.wav
+2026-02-13 16:10:49,414 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL_enhanced.wav
+2026-02-13 16:10:49,473 [INFO] Created 6 segments in /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202-Update Stuck Order TSEL/segments
+2026-02-13 16:10:49,685 [INFO] Memuat VoiceEncoder dari Resemblyzer...
+2026-02-13 16:10:49,685 [ERROR] Error saat diarization Resemblyzer: name 'models_cfg' is not defined
+2026-02-13 16:10:49,685 [INFO] Loading Whisper model turbo (compute_type=int8) from models/whisper
+2026-02-13 16:10:49,685 [INFO] Found model.bin in models/whisper/turbo
+2026-02-13 16:10:50,167 [INFO] HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 16:10:50,458 [INFO] HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-02-13 16:10:52,442 [INFO] Processing audio with duration 02:00.000
+2026-02-13 16:10:57,064 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 16:11:35,949 [INFO] Processing audio with duration 02:00.000
+2026-02-13 16:11:40,945 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 16:12:25,500 [INFO] Processing audio with duration 02:00.000
+2026-02-13 16:12:30,709 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 16:13:11,146 [INFO] Processing audio with duration 02:00.000
+2026-02-13 16:13:16,542 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 16:13:59,174 [INFO] Processing audio with duration 02:00.000
+2026-02-13 16:14:04,683 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 16:14:43,488 [INFO] Processing audio with duration 01:05.518
+2026-02-13 16:14:48,870 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 16:15:16,750 [INFO] Exported JSON: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL.json
+2026-02-13 16:15:16,750 [INFO] Exported SRT: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL.srt
+2026-02-13 16:15:16,750 [INFO] Completed processing for /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202-Update Stuck Order TSEL.m4a
+2026-02-13 16:34:10,861 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-13 16:34:10,861 [INFO] Found 1 audio files to process
+2026-02-13 16:34:11,032 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202-Update Stuck Order TSEL.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL_16k_mono.wav
+2026-02-13 16:34:11,661 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL_enhanced.wav
+2026-02-13 16:34:11,720 [INFO] Created 6 segments in /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202-Update Stuck Order TSEL/segments
+2026-02-13 16:34:11,929 [INFO] Memuat VoiceEncoder dari Resemblyzer...
+2026-02-13 16:34:11,929 [ERROR] Error saat diarization Resemblyzer: name 'models_cfg' is not defined
+2026-02-13 16:34:11,930 [INFO] Loading Whisper model turbo (compute_type=int8) from models/whisper
+2026-02-13 16:34:11,930 [INFO] Found model.bin in models/whisper/turbo
+2026-02-13 16:34:12,418 [INFO] HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 16:34:12,705 [INFO] HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-02-13 16:34:14,765 [INFO] Processing audio with duration 02:00.000
+2026-02-13 16:34:19,352 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 16:34:58,120 [INFO] Processing audio with duration 02:00.000
+2026-02-13 16:35:03,269 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 16:35:48,339 [INFO] Processing audio with duration 02:00.000
+2026-02-13 16:35:53,567 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 16:36:35,663 [INFO] Processing audio with duration 02:00.000
+2026-02-13 16:36:41,161 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 16:37:25,266 [INFO] Processing audio with duration 02:00.000
+2026-02-13 16:37:30,805 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 16:38:11,043 [INFO] Processing audio with duration 01:05.518
+2026-02-13 16:38:16,666 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 16:38:45,356 [INFO] Exported JSON: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL.json
+2026-02-13 16:38:45,357 [INFO] Exported SRT: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL.srt
+2026-02-13 16:38:45,357 [INFO] Completed processing for /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202-Update Stuck Order TSEL.m4a
+2026-02-13 16:44:13,414 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-13 16:44:13,414 [INFO] Found 1 audio files to process
+2026-02-13 16:44:13,580 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202-Update Stuck Order TSEL.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL_16k_mono.wav
+2026-02-13 16:44:14,205 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL_enhanced.wav
+2026-02-13 16:44:14,263 [INFO] Created 6 segments in /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202-Update Stuck Order TSEL/segments
+2026-02-13 16:44:14,475 [INFO] Memuat VoiceEncoder dari Resemblyzer...
+2026-02-13 16:44:14,484 [ERROR] Error saat diarization Resemblyzer: Invalid device string: 'models/resemblyzer'
+2026-02-13 16:44:14,484 [INFO] Loading Whisper model turbo (compute_type=int8) from models/whisper
+2026-02-13 16:44:14,484 [INFO] Found model.bin in models/whisper/turbo
+2026-02-13 16:44:14,964 [INFO] HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 16:44:15,324 [INFO] HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-02-13 16:44:17,251 [INFO] Processing audio with duration 02:00.000
+2026-02-13 16:44:21,840 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 16:48:55,312 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-13 16:48:55,312 [INFO] Found 1 audio files to process
+2026-02-13 16:48:55,479 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202-Update Stuck Order TSEL.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL_16k_mono.wav
+2026-02-13 16:48:56,106 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL_enhanced.wav
+2026-02-13 16:48:56,164 [INFO] Created 6 segments in /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202-Update Stuck Order TSEL/segments
+2026-02-13 16:48:56,339 [INFO] Memuat VoiceEncoder dari Resemblyzer...
+2026-02-13 16:48:56,339 [ERROR] Error saat diarization Resemblyzer: VoiceEncoder.__init__() got an unexpected keyword argument 'model_path'
+2026-02-13 16:48:56,339 [INFO] Loading Whisper model turbo (compute_type=int8) from models/whisper
+2026-02-13 16:48:56,339 [INFO] Found model.bin in models/whisper/turbo
+2026-02-13 16:48:56,972 [INFO] HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 16:48:57,376 [INFO] HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-02-13 16:48:59,264 [INFO] Processing audio with duration 02:00.000
+2026-02-13 16:49:04,078 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 16:49:44,016 [INFO] Processing audio with duration 02:00.000
+2026-02-13 16:49:49,123 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 16:51:43,001 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-13 16:51:43,001 [INFO] Found 1 audio files to process
+2026-02-13 16:51:43,166 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202-Update Stuck Order TSEL.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL_16k_mono.wav
+2026-02-13 16:51:43,791 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL_enhanced.wav
+2026-02-13 16:51:43,849 [INFO] Created 6 segments in /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202-Update Stuck Order TSEL/segments
+2026-02-13 16:51:44,027 [INFO] Memuat VoiceEncoder dari Resemblyzer...
+2026-02-13 16:51:54,677 [INFO] Berhasil clustering → ditemukan 6 speaker
+2026-02-13 16:51:54,677 [INFO] Loading Whisper model turbo (compute_type=int8) from models/whisper
+2026-02-13 16:51:54,678 [INFO] Found model.bin in models/whisper/turbo
+2026-02-13 16:51:55,269 [INFO] HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 16:51:55,814 [INFO] HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-02-13 16:51:57,802 [INFO] Processing audio with duration 02:00.000
+2026-02-13 16:52:02,437 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 16:52:42,631 [INFO] Processing audio with duration 02:00.000
+2026-02-13 16:52:47,802 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 16:53:34,258 [INFO] Processing audio with duration 02:00.000
+2026-02-13 16:53:39,759 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 16:54:19,437 [INFO] Processing audio with duration 02:00.000
+2026-02-13 16:54:24,777 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 16:55:08,140 [INFO] Processing audio with duration 02:00.000
+2026-02-13 16:55:13,532 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 16:55:52,951 [INFO] Processing audio with duration 01:05.518
+2026-02-13 16:55:58,405 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 16:56:26,820 [INFO] Exported JSON: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL.json
+2026-02-13 16:56:26,820 [INFO] Exported SRT: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL.srt
+2026-02-13 16:56:26,820 [INFO] Completed processing for /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202-Update Stuck Order TSEL.m4a
+2026-02-13 17:00:52,176 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-13 17:00:52,177 [INFO] Found 1 audio files to process
+2026-02-13 17:00:52,340 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202-Update Stuck Order TSEL.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL_16k_mono.wav
+2026-02-13 17:00:52,966 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL_enhanced.wav
+2026-02-13 17:00:53,029 [INFO] Created 6 segments in /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202-Update Stuck Order TSEL/segments
+2026-02-13 17:00:53,251 [INFO] Memuat VoiceEncoder dari Resemblyzer...
+2026-02-13 17:00:56,838 [INFO] Berhasil clustering → ditemukan 6 speaker
+2026-02-13 17:00:56,838 [INFO] Loading Whisper model turbo (compute_type=int8) from models/whisper
+2026-02-13 17:00:56,839 [INFO] Found model.bin in models/whisper/turbo
+2026-02-13 17:00:57,301 [INFO] HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 17:00:57,565 [INFO] HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-02-13 17:00:59,587 [INFO] Processing audio with duration 02:00.000
+2026-02-13 17:01:04,498 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 17:01:46,353 [INFO] Processing audio with duration 02:00.000
+2026-02-13 17:01:51,770 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 17:02:40,582 [INFO] Processing audio with duration 02:00.000
+2026-02-13 17:02:46,167 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 17:03:27,377 [INFO] Processing audio with duration 02:00.000
+2026-02-13 17:03:32,978 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 17:04:17,257 [INFO] Processing audio with duration 02:00.000
+2026-02-13 17:04:22,738 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 17:05:02,380 [INFO] Processing audio with duration 01:05.518
+2026-02-13 17:05:08,041 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 17:05:36,048 [INFO] Exported JSON: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL.json
+2026-02-13 17:05:36,049 [INFO] Exported SRT: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL.srt
+2026-02-13 17:05:36,049 [INFO] Completed processing for /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202-Update Stuck Order TSEL.m4a
+2026-02-13 17:18:41,282 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-13 17:18:41,282 [INFO] Found 1 audio files to process
+2026-02-13 17:18:41,447 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202-Update Stuck Order TSEL.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL_16k_mono.wav
+2026-02-13 17:18:42,075 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL_enhanced.wav
+2026-02-13 17:18:42,135 [INFO] Created 6 segments in /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202-Update Stuck Order TSEL/segments
+2026-02-13 17:18:42,350 [INFO] Memuat VoiceEncoder dari Resemblyzer...
+2026-02-13 17:18:46,172 [INFO] Berhasil clustering → ditemukan 1 speaker
+2026-02-13 17:18:46,172 [INFO] Berhasil clustering → ditemukan 1 speaker
+2026-02-13 17:18:46,172 [INFO] Loading Whisper model turbo (compute_type=int8) from models/whisper
+2026-02-13 17:18:46,173 [INFO] Found model.bin in models/whisper/turbo
+2026-02-13 17:18:46,927 [INFO] HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 17:18:47,304 [INFO] HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-02-13 17:18:49,318 [INFO] Processing audio with duration 02:00.000
+2026-02-13 17:18:53,922 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 17:19:33,574 [INFO] Processing audio with duration 02:00.000
+2026-02-13 17:19:38,662 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 17:20:23,583 [INFO] Processing audio with duration 02:00.000
+2026-02-13 17:20:29,100 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 17:21:08,845 [INFO] Processing audio with duration 02:00.000
+2026-02-13 17:21:14,223 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 17:21:57,276 [INFO] Processing audio with duration 02:00.000
+2026-02-13 17:22:02,712 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 17:22:41,992 [INFO] Processing audio with duration 01:05.518
+2026-02-13 17:22:47,430 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 17:23:15,011 [INFO] Exported JSON: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL.json
+2026-02-13 17:23:15,012 [INFO] Exported SRT: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL.srt
+2026-02-13 17:23:15,012 [INFO] Completed processing for /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202-Update Stuck Order TSEL.m4a
+2026-02-13 17:28:43,123 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-13 17:28:43,123 [INFO] Found 1 audio files to process
+2026-02-13 17:28:43,288 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202-Update Stuck Order TSEL.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL_16k_mono.wav
+2026-02-13 17:28:43,915 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL_enhanced.wav
+2026-02-13 17:28:43,976 [INFO] Created 6 segments in /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202-Update Stuck Order TSEL/segments
+2026-02-13 17:28:44,150 [INFO] Memuat VoiceEncoder dari Resemblyzer...
+2026-02-13 17:28:47,334 [INFO] Berhasil clustering → ditemukan 1 speaker
+2026-02-13 17:28:47,335 [INFO] Berhasil clustering → ditemukan 1 speaker
+2026-02-13 17:28:47,335 [INFO] Loading Whisper model turbo (compute_type=int8) from models/whisper
+2026-02-13 17:28:47,335 [INFO] Found model.bin in models/whisper/turbo
+2026-02-13 17:28:47,788 [INFO] HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 17:28:48,050 [INFO] HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-02-13 17:28:50,084 [INFO] Processing audio with duration 02:00.000
+2026-02-13 17:28:54,811 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 17:29:35,002 [INFO] Processing audio with duration 02:00.000
+2026-02-13 17:29:40,143 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 17:30:25,597 [INFO] Processing audio with duration 02:00.000
+2026-02-13 17:30:31,233 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 17:31:11,263 [INFO] Processing audio with duration 02:00.000
+2026-02-13 17:31:16,639 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 17:31:59,955 [INFO] Processing audio with duration 02:00.000
+2026-02-13 17:32:05,598 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 17:32:44,935 [INFO] Processing audio with duration 01:05.518
+2026-02-13 17:32:50,372 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 17:33:18,173 [INFO] Exported JSON: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL.json
+2026-02-13 17:33:18,174 [INFO] Exported SRT: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL.srt
+2026-02-13 17:33:18,174 [INFO] Completed processing for /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202-Update Stuck Order TSEL.m4a
+2026-02-13 17:41:56,913 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-13 17:41:56,914 [INFO] Found 1 audio files to process
+2026-02-13 17:41:57,081 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202-Update Stuck Order TSEL.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL_16k_mono.wav
+2026-02-13 17:41:57,730 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL_enhanced.wav
+2026-02-13 17:41:57,789 [INFO] Created 6 segments in /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202-Update Stuck Order TSEL/segments
+2026-02-13 17:41:58,004 [INFO] Memuat VoiceEncoder dari Resemblyzer...
+2026-02-13 17:42:01,484 [INFO] Berhasil clustering → ditemukan 2 speaker
+2026-02-13 17:42:01,484 [INFO] Berhasil clustering → ditemukan 2 speaker
+2026-02-13 17:42:01,485 [INFO] Loading Whisper model turbo (compute_type=int8) from models/whisper
+2026-02-13 17:42:01,485 [INFO] Found model.bin in models/whisper/turbo
+2026-02-13 17:42:02,118 [INFO] HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 17:42:02,381 [INFO] HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-02-13 17:42:04,426 [INFO] Processing audio with duration 02:00.000
+2026-02-13 17:42:09,106 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 17:42:48,583 [INFO] Processing audio with duration 02:00.000
+2026-02-13 17:42:53,689 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 17:43:39,175 [INFO] Processing audio with duration 02:00.000
+2026-02-13 17:43:44,741 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 17:44:24,652 [INFO] Processing audio with duration 02:00.000
+2026-02-13 17:44:30,010 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 17:45:13,340 [INFO] Processing audio with duration 02:00.000
+2026-02-13 17:45:18,811 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 17:45:58,312 [INFO] Processing audio with duration 01:05.518
+2026-02-13 17:46:03,958 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 17:46:31,412 [INFO] Exported JSON: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL.json
+2026-02-13 17:46:31,412 [INFO] Exported SRT: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL.srt
+2026-02-13 17:46:31,412 [INFO] Completed processing for /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202-Update Stuck Order TSEL.m4a
+2026-02-13 18:09:52,926 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-13 18:09:52,927 [INFO] Found 1 audio files to process
+2026-02-13 18:09:53,092 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202-Update Stuck Order TSEL.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL_16k_mono.wav
+2026-02-13 18:09:53,721 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL_enhanced.wav
+2026-02-13 18:09:53,934 [INFO] Mulai potong berdasarkan ganti speaker...
+2026-02-13 18:09:55,126 [ERROR] Failed processing /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202-Update Stuck Order TSEL.m4a: get_duration() takes 0 positional arguments but 1 positional argument (and 1 keyword-only argument) were given
+Traceback (most recent call last):
+  File "/Users/670141/Documents/Python/Speech To Text/scripts/process_audio.py", line 547, in main
+    process_file(f, cfg, paths, resume=args.resume)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/670141/Documents/Python/Speech To Text/scripts/process_audio.py", line 453, in process_file
+    segments = speaker_based_segmentation(enhanced_wav, diar_cfg, resemblyzer_dir, vad_cfg.get("max_chunk_s", 120.0))
+  File "/Users/670141/Documents/Python/Speech To Text/scripts/process_audio.py", line 136, in speaker_based_segmentation
+    for start_s in np.arange(0, librosa.get_duration(audio, sr=sr) - window_s, hop_s):
+                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+TypeError: get_duration() takes 0 positional arguments but 1 positional argument (and 1 keyword-only argument) were given
+2026-02-13 18:16:25,056 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-13 18:16:25,057 [INFO] Found 1 audio files to process
+2026-02-13 18:16:25,223 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202-Update Stuck Order TSEL.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL_16k_mono.wav
+2026-02-13 18:16:25,851 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL_enhanced.wav
+2026-02-13 18:16:26,064 [INFO] Mulai potong berdasarkan ganti speaker...
+2026-02-13 18:16:27,256 [INFO] Durasi audio: 665.52 detik
+2026-02-13 18:16:34,073 [INFO] Ditemukan 49 speaker unik
+2026-02-13 18:16:34,073 [INFO] Buat 140 segmen berdasarkan ganti speaker
+2026-02-13 18:16:39,711 [INFO] Loading Whisper model turbo (compute_type=int8) from models/whisper
+2026-02-13 18:16:39,712 [INFO] Found model.bin in models/whisper/turbo
+2026-02-13 18:16:40,337 [INFO] HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 18:16:40,594 [INFO] HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-02-13 18:16:42,615 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:16:47,236 [INFO] Detected language 'en' with probability 0.46
+2026-02-13 18:16:52,283 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:16:57,063 [INFO] Detected language 'id' with probability 0.43
+2026-02-13 18:17:02,077 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:17:07,391 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:17:12,829 [INFO] Processing audio with duration 00:10.000
+2026-02-13 18:17:17,813 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:17:23,480 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:17:28,717 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:17:34,213 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:17:39,358 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:17:44,959 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:17:50,095 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:17:55,828 [INFO] Processing audio with duration 00:10.000
+2026-02-13 18:18:01,218 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:18:07,368 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:18:12,633 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:18:18,214 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:18:23,691 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:18:29,320 [INFO] Processing audio with duration 00:10.000
+2026-02-13 18:18:34,751 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:18:40,789 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:18:46,019 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:18:51,614 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:18:56,874 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:19:02,706 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:19:08,171 [INFO] Detected language 'id' with probability 0.99
+2026-02-13 18:19:13,789 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:19:19,060 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:19:24,765 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:19:30,048 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:19:35,922 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:19:41,206 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:19:47,034 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:19:52,325 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:19:57,930 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:20:03,369 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:20:09,197 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:20:14,507 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:20:20,413 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:20:25,732 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:20:31,427 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:20:36,976 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:20:42,778 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:20:48,102 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:20:53,877 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:20:59,206 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:21:05,176 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:21:10,563 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:21:16,565 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:21:21,902 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:21:27,797 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:21:33,270 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:21:39,036 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:21:44,391 [INFO] Detected language 'id' with probability 0.99
+2026-02-13 18:21:50,064 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:21:55,430 [INFO] Detected language 'en' with probability 0.86
+2026-02-13 18:22:01,027 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:22:06,837 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:22:12,662 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:22:18,051 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:22:23,912 [INFO] Processing audio with duration 00:10.000
+2026-02-13 18:22:29,294 [INFO] Detected language 'id' with probability 0.99
+2026-02-13 18:22:35,805 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:22:41,166 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:22:46,914 [INFO] Processing audio with duration 00:07.500
+2026-02-13 18:22:52,308 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:22:58,474 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:23:04,095 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:23:10,129 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:23:15,531 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:23:21,335 [INFO] Processing audio with duration 00:07.500
+2026-02-13 18:23:26,785 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:23:33,224 [INFO] Processing audio with duration 00:07.500
+2026-02-13 18:23:38,785 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:23:45,086 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:23:50,496 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:23:56,286 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:24:01,724 [INFO] Detected language 'id' with probability 0.99
+2026-02-13 18:24:07,668 [INFO] Processing audio with duration 00:10.000
+2026-02-13 18:24:13,092 [INFO] Detected language 'en' with probability 0.51
+2026-02-13 18:24:18,797 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:24:24,245 [INFO] Detected language 'id' with probability 0.23
+2026-02-13 18:24:29,935 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:24:35,791 [INFO] Detected language 'id' with probability 0.97
+2026-02-13 18:24:43,545 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:24:48,981 [INFO] Detected language 'id' with probability 0.47
+2026-02-13 18:24:54,695 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:25:00,195 [INFO] Detected language 'id' with probability 0.98
+2026-02-13 18:25:06,282 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:25:11,715 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:25:17,436 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:25:22,883 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:25:28,880 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:25:34,597 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:25:40,623 [INFO] Processing audio with duration 00:12.500
+2026-02-13 18:25:46,086 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:25:52,804 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:25:58,312 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:26:04,809 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:26:10,374 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:26:16,318 [INFO] Processing audio with duration 00:10.000
+2026-02-13 18:26:21,860 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:26:28,503 [INFO] Processing audio with duration 00:10.000
+2026-02-13 18:26:34,246 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:26:40,613 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:26:46,094 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:26:51,985 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:26:57,463 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:27:03,452 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:27:09,055 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:27:14,935 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:27:20,420 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:27:26,185 [INFO] Processing audio with duration 00:07.500
+2026-02-13 18:27:31,662 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:27:38,105 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:27:43,578 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:27:49,420 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:27:54,932 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:28:00,976 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:28:06,793 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:28:12,559 [INFO] Processing audio with duration 00:07.500
+2026-02-13 18:28:18,065 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:28:24,277 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:28:29,936 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:28:36,194 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:28:41,712 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:28:47,739 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:28:53,254 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:28:59,392 [INFO] Processing audio with duration 00:10.000
+2026-02-13 18:29:05,140 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:29:11,081 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:29:16,597 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:29:22,550 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:29:28,062 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:29:34,234 [INFO] Processing audio with duration 00:07.500
+2026-02-13 18:29:39,788 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:29:47,702 [INFO] Processing audio with duration 00:12.500
+2026-02-13 18:29:53,561 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:30:00,734 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:30:06,965 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:30:13,491 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:30:19,890 [INFO] Detected language 'ja' with probability 0.73
+2026-02-13 18:30:27,016 [INFO] Processing audio with duration 00:07.500
+2026-02-13 18:30:34,558 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:30:43,108 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:30:52,371 [INFO] Detected language 'id' with probability 0.92
+2026-02-13 18:31:02,507 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:31:12,401 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:31:21,896 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:31:30,519 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:31:39,117 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:31:46,673 [INFO] Detected language 'id' with probability 0.99
+2026-02-13 18:31:54,353 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:32:01,457 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:32:09,068 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:32:15,862 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:32:23,171 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:32:29,879 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:32:37,397 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:32:44,057 [INFO] Detected language 'id' with probability 0.99
+2026-02-13 18:32:51,078 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:32:57,673 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:33:04,999 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:33:11,593 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:33:18,851 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:33:25,489 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:33:32,700 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:33:39,618 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:33:46,864 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:33:53,559 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:34:01,058 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:34:08,122 [INFO] Detected language 'id' with probability 0.99
+2026-02-13 18:34:15,475 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:34:22,222 [INFO] Detected language 'id' with probability 0.99
+2026-02-13 18:34:29,363 [INFO] Processing audio with duration 00:10.000
+2026-02-13 18:34:36,416 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:34:44,277 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:34:51,099 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:34:59,201 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:35:07,158 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:35:14,769 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:35:21,655 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:35:29,274 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:35:36,599 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:35:44,193 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:35:51,223 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:35:58,827 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:36:06,414 [INFO] Detected language 'id' with probability 0.99
+2026-02-13 18:36:14,012 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:36:21,107 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:36:28,793 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:36:36,658 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:36:44,404 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:36:51,432 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:36:59,262 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:37:09,575 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:37:20,221 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:37:30,303 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:37:41,619 [INFO] Processing audio with duration 00:10.000
+2026-02-13 18:37:48,919 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:37:57,449 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:38:04,967 [INFO] Detected language 'id' with probability 0.92
+2026-02-13 18:38:12,435 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:38:19,594 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:38:27,214 [INFO] Processing audio with duration 00:07.500
+2026-02-13 18:38:34,552 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:38:42,600 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:38:49,617 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:38:56,976 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:39:04,244 [INFO] Detected language 'id' with probability 0.96
+2026-02-13 18:39:11,694 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:39:18,718 [INFO] Detected language 'id' with probability 0.98
+2026-02-13 18:39:26,510 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:39:33,883 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:39:41,411 [INFO] Processing audio with duration 00:07.500
+2026-02-13 18:39:48,439 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:39:56,352 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:40:03,853 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:40:11,686 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:40:18,766 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:40:26,147 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:40:33,481 [INFO] Detected language 'id' with probability 0.99
+2026-02-13 18:40:41,446 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:40:48,546 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:40:56,170 [INFO] Processing audio with duration 00:10.000
+2026-02-13 18:41:03,404 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:41:11,700 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:41:18,882 [INFO] Detected language 'id' with probability 0.99
+2026-02-13 18:41:26,507 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:41:33,876 [INFO] Detected language 'id' with probability 0.32
+2026-02-13 18:41:41,445 [INFO] Processing audio with duration 00:07.500
+2026-02-13 18:41:48,602 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:41:56,542 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:42:03,930 [INFO] Detected language 'en' with probability 0.22
+2026-02-13 18:42:11,447 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:42:18,589 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:42:26,137 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:42:33,799 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:42:41,561 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:42:48,771 [INFO] Detected language 'id' with probability 0.99
+2026-02-13 18:42:56,519 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:43:03,933 [INFO] Detected language 'id' with probability 0.83
+2026-02-13 18:43:11,578 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:43:18,773 [INFO] Detected language 'id' with probability 0.93
+2026-02-13 18:43:26,455 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:43:33,852 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:43:41,639 [INFO] Processing audio with duration 00:10.000
+2026-02-13 18:43:48,819 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:43:57,192 [INFO] Processing audio with duration 00:07.500
+2026-02-13 18:44:04,710 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:44:12,944 [INFO] Processing audio with duration 00:07.500
+2026-02-13 18:44:20,206 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:44:28,440 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:44:36,001 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:44:43,837 [INFO] Processing audio with duration 00:07.500
+2026-02-13 18:44:51,085 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:44:59,393 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:45:07,059 [INFO] Detected language 'id' with probability 0.85
+2026-02-13 18:45:14,626 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:45:22,049 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:45:29,977 [INFO] Processing audio with duration 00:12.500
+2026-02-13 18:45:37,654 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:45:46,323 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:45:53,762 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:46:01,822 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:46:09,528 [INFO] Detected language 'id' with probability 0.99
+2026-02-13 18:46:17,361 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:46:24,673 [INFO] Detected language 'id' with probability 0.98
+2026-02-13 18:46:34,801 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:46:45,836 [INFO] Detected language 'fr' with probability 0.63
+2026-02-13 18:46:57,465 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:47:08,907 [INFO] Detected language 'ja' with probability 0.27
+2026-02-13 18:47:20,433 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:47:31,960 [INFO] Detected language 'id' with probability 0.32
+2026-02-13 18:47:44,255 [INFO] Processing audio with duration 00:02.500
+2026-02-13 18:47:55,723 [INFO] Detected language 'es' with probability 0.46
+2026-02-13 18:48:07,620 [INFO] Processing audio with duration 00:05.000
+2026-02-13 18:48:19,230 [INFO] Detected language 'id' with probability 1.00
+2026-02-13 18:48:31,076 [INFO] Exported JSON: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL.json
+2026-02-13 18:48:31,077 [INFO] Exported SRT: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL.srt
+2026-02-13 18:48:31,077 [INFO] Completed processing for /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202-Update Stuck Order TSEL.m4a

@@ -27,6 +27,7 @@ import logging
 import os
 import sys
 import uuid
+import librosa
 from dataclasses import dataclass, asdict
 from pathlib import Path
 from typing import List, Dict, Any, Optional, Tuple
@@ -111,6 +112,98 @@ def transcode_to_wav16k_mono(src: Path, dst_dir: Path, sample_rate: int, channel
         raise RuntimeError(f"ffmpeg transcode error: {err}")
     logging.info(f"Transcoded: {src} -> {out}")
     return out
+
+
+def speaker_based_segmentation(enhanced_wav: Path, diar_cfg: Dict[str, Any], resemblyzer_dir: str, max_chunk_s: float = 120.0) -> List[Segment]:
+    from resemblyzer import VoiceEncoder, preprocess_wav
+    import numpy as np
+    import librosa
+    
+    logging.info("Mulai potong berdasarkan ganti speaker...")
+    
+    encoder = VoiceEncoder(device="cpu")
+    
+    # Buka audio
+    audio, sr = librosa.load(str(enhanced_wav), sr=16000, mono=True)
+    
+    # Hitung durasi dengan cara aman
+    audio_duration = len(audio) / sr
+    logging.info(f"Durasi audio: {audio_duration:.2f} detik")
+    
+    window_s = 5.0
+    hop_s = 2.5
+    
+    embeddings = []
+    times = []
+    
+    for start_s in np.arange(0, audio_duration - window_s, hop_s):
+        end_s = start_s + window_s
+        chunk = audio[int(start_s * sr):int(end_s * sr)]
+        emb = encoder.embed_utterance(chunk)
+        embeddings.append(emb)
+        times.append((start_s, end_s))
+    
+    if not embeddings:
+        logging.warning("Tidak ada embedding untuk diarization")
+        return []
+    
+    embeddings = np.array(embeddings)
+    
+    # Clustering seperti sebelumnya, tapi dengan threshold untuk temuin ganti
+    from sklearn.cluster import AgglomerativeClustering
+    clustering = AgglomerativeClustering(
+        n_clusters=None,
+        distance_threshold=0.8,  # coba ubah ini kalau terlalu sedikit/banyak speaker
+        linkage='ward',
+        metric='euclidean'
+    )
+    labels = clustering.fit_predict(embeddings)
+    
+    logging.info(f"Ditemukan {len(set(labels))} speaker unik")
+    
+    # Temuin tempat ganti speaker
+    change_points = [0]  # mulai dari awal
+    for i in range(1, len(labels)):
+        if labels[i] != labels[i-1]:
+            change_points.append(times[i][0])  # waktu mulai ganti (detik)
+    change_points.append(times[-1][1])  # akhir audio
+    
+    # Buat segmen berdasarkan ganti, tapi periksa panjang < max_chunk_s
+    segments = []
+    for idx, (start_s, end_s) in enumerate(zip(change_points[:-1], change_points[1:])):
+        dur = end_s - start_s
+        if dur > max_chunk_s:
+            # Kalau terlalu panjang, potong jadi kecil-kecil
+            num_sub = int(np.ceil(dur / max_chunk_s))
+            sub_dur = dur / num_sub
+            sub_start = start_s
+            for j in range(num_sub):
+                sub_end = sub_start + sub_dur
+                seg = Segment(
+                    id=str(uuid.uuid4()),
+                    source_file=str(enhanced_wav),
+                    chunk_index=len(segments),
+                    start_s=sub_start,
+                    end_s=sub_end,
+                    path=str(enhanced_wav),  # pakai audio besar dulu, nanti potong beneran
+                    speaker=f"SPK{labels[idx]}"  # nama speaker sama
+                )
+                segments.append(seg)
+                sub_start = sub_end
+        else:
+            seg = Segment(
+                id=str(uuid.uuid4()),
+                source_file=str(enhanced_wav),
+                chunk_index=len(segments),
+                start_s=start_s,
+                end_s=end_s,
+                path=str(enhanced_wav),
+                speaker=f"SPK{labels[idx]}"
+            )
+            segments.append(seg)
+    
+    logging.info(f"Buat {len(segments)} segmen berdasarkan ganti speaker")
+    return segments
 
 
 def enhance_with_ffmpeg(in_wav: Path, out_wav: Path, cfg: Dict[str, Any]) -> Path:
@@ -357,29 +450,27 @@ def process_file(src_path: Path, cfg: Dict[str, Any], paths: Dict[str, Path], re
         state[file_key] = file_state
         save_checkpoint(state_path, state)
 
-    # 3) Segmentation (fixed-size chunks)
-    seg_dir = processed_dir / "segments"
-    if resume and file_state.get("segmented"):
-        segments = [
-            Segment(**s) for s in file_state.get("segments", [])
-        ]
-        logging.info(f"Resume: {len(segments)} segments loaded from checkpoint")
-    else:
-        max_chunk_s = vad_cfg.get("max_chunk_s", 45.0)
-        segments = segment_audio_ffmpeg(enhanced_wav, seg_dir, max_chunk_s)
-        file_state["segmented"] = True
-        file_state["segments"] = [asdict(s) for s in segments]
-        state[file_key] = file_state
-        save_checkpoint(state_path, state)
+    # 3) Potong berdasarkan ganti suara (pakai fungsi baru)
+    resemblyzer_dir = cfg.get("models", {}).get("resemblyzer_dir", "models/resemblyzer")
+    segments = speaker_based_segmentation(enhanced_wav, diar_cfg, resemblyzer_dir, vad_cfg.get("max_chunk_s", 120.0))
 
-    # 4) Diarization (placeholder: single speaker)
-    if diar_cfg.get("enable", True):
-        for s in segments:
-            s.speaker = "SPK1"
-        file_state["diarized"] = True
-        file_state["segments"] = [asdict(s) for s in segments]
-        state[file_key] = file_state
-        save_checkpoint(state_path, state)
+    # 4) Potong audio beneran jadi file kecil berdasarkan segmen baru
+    seg_dir = processed_dir / "segments"
+    ensure_dir(seg_dir)
+    for seg in segments:
+        seg_path = seg_dir / f"{seg.chunk_index:03d}.wav"
+        cmd = f"ffmpeg -y -i {shlex.quote(str(enhanced_wav))} -ss {seg.start_s} -to {seg.end_s} -c:a pcm_s16le {shlex.quote(str(seg_path))}"
+        code, _, err = run_cmd(cmd)
+        if code != 0:
+            logging.error(f"Gagal potong segmen {seg.chunk_index}: {err}")
+        else:
+            seg.path = str(seg_path)
+
+    file_state["segmented"] = True
+    file_state["diarized"] = True
+    file_state["segments"] = [asdict(s) for s in segments]
+    state[file_key] = file_state
+    save_checkpoint(state_path, state)
 
     # 5) ASR
     if resume and file_state.get("transcribed"):
@@ -392,6 +483,10 @@ def process_file(src_path: Path, cfg: Dict[str, Any], paths: Dict[str, Path], re
         file_state["segments"] = [asdict(s) for s in segments]
         state[file_key] = file_state
         save_checkpoint(state_path, state)
+
+    print("\n=== DEBUG: SPEAKER SEBELUM EXPORT ===")
+    for i, seg in enumerate(segments):
+        print(f"Segment {i}: speaker = {seg.speaker}, text = {seg.text[:30] if seg.text else 'kosong'}")
 
     # 6) Export
     output_dir = paths["output_dir"] / src_path.stem

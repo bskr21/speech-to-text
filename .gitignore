@@ -4,6 +4,18 @@ models/whisper/turbo/*.bin
 models/whisper/turbo/*.safetensors
 models/whisper/turbo/*.pt
 models/whisper/turbo/*.pth
+models/resemblyzer/*.py
+models/resemblyzer/*pt
+
+# Input files
+data/input/
+
+# PRocessed files
+data/processed/
+
+# Output files
+data/output/
+
 
 # Cache files we don't need on GitHub
 data/cache/
@@ -20,3 +32,6 @@ __pycache__/
 # BFG cleanup junk - we don't want these on GitHub
 ..bfg-report/
 bfg-1.14.0.jar
+
+
+backup_process_audio.py
