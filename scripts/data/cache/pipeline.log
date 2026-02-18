@@ -1,0 +1,38 @@
+2026-02-18 07:53:37,823 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-18 07:53:37,823 [INFO] Found 1 audio files to process
+2026-02-18 07:53:37,970 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_16k_mono.wav
+2026-02-18 07:53:38,118 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_enhanced.wav
+2026-02-18 07:53:38,480 [INFO] Mulai potong berdasarkan ganti speaker...
+2026-02-18 07:53:40,545 [INFO] Durasi audio: 132.08 detik
+2026-02-18 07:53:43,195 [INFO] Ditemukan 4 speaker unik
+2026-02-18 07:53:43,195 [INFO] Buat 13 segmen berdasarkan ganti speaker
+2026-02-18 07:53:43,588 [INFO] Loading Whisper model turbo (compute_type=int8) from models/whisper
+2026-02-18 07:53:43,589 [ERROR] Failed processing /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a: Cannot find model.bin in models/whisper/turbo
+Traceback (most recent call last):
+  File "/Users/670141/Documents/Python/Speech To Text/scripts/process_audio.py", line 549, in main
+    process_file(f, cfg, paths, resume=args.resume)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/670141/Documents/Python/Speech To Text/scripts/process_audio.py", line 480, in process_file
+    model = initialize_asr(asr_cfg, cfg.get("models", {}))
+  File "/Users/670141/Documents/Python/Speech To Text/scripts/process_audio.py", line 311, in initialize_asr
+    raise FileNotFoundError(f"Cannot find model.bin in {model_path}")
+FileNotFoundError: Cannot find model.bin in models/whisper/turbo
+2026-02-18 07:54:13,766 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-18 07:54:13,766 [INFO] Found 1 audio files to process
+2026-02-18 07:54:13,842 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_16k_mono.wav
+2026-02-18 07:54:13,987 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_enhanced.wav
+2026-02-18 07:54:14,178 [INFO] Mulai potong berdasarkan ganti speaker...
+2026-02-18 07:54:15,319 [INFO] Durasi audio: 132.08 detik
+2026-02-18 07:54:17,152 [INFO] Ditemukan 4 speaker unik
+2026-02-18 07:54:17,152 [INFO] Buat 13 segmen berdasarkan ganti speaker
+2026-02-18 07:54:17,524 [INFO] Loading Whisper model turbo (compute_type=int8) from models/whisper
+2026-02-18 07:54:17,524 [ERROR] Failed processing /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a: Cannot find model.bin in models/whisper/turbo
+Traceback (most recent call last):
+  File "/Users/670141/Documents/Python/Speech To Text/scripts/process_audio.py", line 549, in main
+    process_file(f, cfg, paths, resume=args.resume)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/670141/Documents/Python/Speech To Text/scripts/process_audio.py", line 480, in process_file
+    model = initialize_asr(asr_cfg, cfg.get("models", {}))
+  File "/Users/670141/Documents/Python/Speech To Text/scripts/process_audio.py", line 311, in initialize_asr
+    raise FileNotFoundError(f"Cannot find model.bin in {model_path}")
+FileNotFoundError: Cannot find model.bin in models/whisper/turbo

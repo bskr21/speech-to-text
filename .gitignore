@@ -25,6 +25,7 @@ __pycache__/
 *.pyd
 .DS_Store
 
+
 # Mac junk files - we don't want these on GitHub
 .DS_Store
 */.DS_Store
@@ -33,5 +34,5 @@ __pycache__/
 ..bfg-report/
 bfg-1.14.0.jar
 
-
+# Backup files
 backup_process_audio.py

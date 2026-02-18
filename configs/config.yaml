@@ -37,7 +37,7 @@ diarization:
   enable: true
   backend: "resemblyzer"
   min_cluster_size: 12
-  threshold: 0.25
+  threshold: 1 # default 0.25
   smoothing_s: 0.5
 asr:
   backend: "faster_whisper"

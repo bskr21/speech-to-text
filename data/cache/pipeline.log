@@ -701,3 +701,392 @@ TypeError: get_duration() takes 0 positional arguments but 1 positional argument
 2026-02-13 18:48:31,076 [INFO] Exported JSON: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL.json
 2026-02-13 18:48:31,077 [INFO] Exported SRT: /Users/670141/Documents/Python/Speech To Text/data/output/RADIT ITD-20260202-Update Stuck Order TSEL/RADIT ITD-20260202-Update Stuck Order TSEL.srt
 2026-02-13 18:48:31,077 [INFO] Completed processing for /Users/670141/Documents/Python/Speech To Text/data/input/RADIT ITD-20260202-Update Stuck Order TSEL.m4a
+2026-02-16 03:45:46,476 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-16 03:45:46,476 [INFO] Found 1 audio files to process
+2026-02-16 03:45:46,599 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_16k_mono.wav
+2026-02-16 03:45:46,751 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_enhanced.wav
+2026-02-16 03:45:47,312 [INFO] Mulai potong berdasarkan ganti speaker...
+2026-02-16 03:45:49,998 [INFO] Durasi audio: 132.08 detik
+2026-02-16 03:45:52,992 [INFO] Ditemukan 6 speaker unik
+2026-02-16 03:45:52,993 [INFO] Buat 15 segmen berdasarkan ganti speaker
+2026-02-16 03:45:53,457 [INFO] Loading Whisper model turbo (compute_type=int8) from models/whisper
+2026-02-16 03:45:53,458 [INFO] Found model.bin in models/whisper/turbo
+2026-02-16 03:45:54,088 [INFO] HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-02-16 03:45:54,472 [INFO] HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-02-16 03:45:56,589 [INFO] Processing audio with duration 00:02.500
+2026-02-16 03:46:01,440 [INFO] Detected language 'id' with probability 1.00
+2026-02-16 03:46:06,875 [INFO] Processing audio with duration 00:07.500
+2026-02-16 03:46:12,081 [INFO] Detected language 'id' with probability 0.99
+2026-02-16 03:46:17,665 [INFO] Processing audio with duration 00:12.500
+2026-02-16 03:46:22,922 [INFO] Detected language 'id' with probability 1.00
+2026-02-16 03:46:29,043 [INFO] Processing audio with duration 00:02.500
+2026-02-16 03:46:34,376 [INFO] Detected language 'id' with probability 0.99
+2026-02-16 03:46:40,039 [INFO] Processing audio with duration 00:05.000
+2026-02-16 03:46:45,411 [INFO] Detected language 'id' with probability 1.00
+2026-02-16 03:46:51,196 [INFO] Processing audio with duration 00:05.000
+2026-02-16 03:46:56,621 [INFO] Detected language 'id' with probability 1.00
+2026-02-16 03:47:02,549 [INFO] Processing audio with duration 00:02.500
+2026-02-16 03:47:08,020 [INFO] Detected language 'id' with probability 0.97
+2026-02-16 03:47:13,721 [INFO] Processing audio with duration 00:02.500
+2026-02-16 03:47:19,267 [INFO] Detected language 'id' with probability 1.00
+2026-02-16 03:47:25,417 [INFO] Processing audio with duration 00:07.500
+2026-02-16 03:47:31,544 [INFO] Detected language 'id' with probability 1.00
+2026-02-16 03:47:38,792 [INFO] Processing audio with duration 00:02.500
+2026-02-16 03:47:45,955 [INFO] Detected language 'id' with probability 0.97
+2026-02-16 03:47:54,143 [INFO] Processing audio with duration 00:42.500
+2026-02-16 03:48:03,052 [INFO] Detected language 'id' with probability 1.00
+2026-02-16 03:48:33,138 [INFO] Processing audio with duration 00:02.500
+2026-02-16 03:48:44,892 [INFO] Detected language 'id' with probability 0.99
+2026-02-16 03:48:56,451 [INFO] Processing audio with duration 00:25.000
+2026-02-16 03:49:06,635 [INFO] Detected language 'id' with probability 1.00
+2026-02-16 03:49:19,735 [INFO] Processing audio with duration 00:02.500
+2026-02-16 03:49:29,264 [INFO] Detected language 'id' with probability 0.99
+2026-02-16 03:49:38,638 [INFO] Processing audio with duration 00:07.500
+2026-02-16 03:49:47,597 [INFO] Detected language 'id' with probability 0.97
+2026-02-16 03:49:56,698 [INFO] Exported JSON: /Users/670141/Documents/Python/Speech To Text/data/output/sample/sample.json
+2026-02-16 03:49:56,699 [INFO] Exported SRT: /Users/670141/Documents/Python/Speech To Text/data/output/sample/sample.srt
+2026-02-16 03:49:56,699 [INFO] Completed processing for /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a
+2026-02-16 04:01:02,845 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-16 04:01:02,845 [INFO] Found 1 audio files to process
+2026-02-16 04:01:02,917 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_16k_mono.wav
+2026-02-16 04:01:03,064 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_enhanced.wav
+2026-02-16 04:01:03,241 [INFO] Mulai potong berdasarkan ganti speaker...
+2026-02-16 04:01:04,116 [INFO] Durasi audio: 132.08 detik
+2026-02-16 04:01:05,920 [INFO] Ditemukan 4 speaker unik
+2026-02-16 04:01:05,920 [INFO] Buat 13 segmen berdasarkan ganti speaker
+2026-02-16 04:01:06,315 [INFO] Loading Whisper model turbo (compute_type=int8) from models/whisper
+2026-02-16 04:01:06,315 [INFO] Found model.bin in models/whisper/turbo
+2026-02-16 04:01:07,157 [INFO] HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-02-16 04:01:07,770 [INFO] HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-02-16 04:01:09,363 [INFO] Processing audio with duration 00:02.500
+2026-02-16 04:01:14,047 [INFO] Detected language 'id' with probability 1.00
+2026-02-16 04:01:19,141 [INFO] Processing audio with duration 00:07.500
+2026-02-16 04:01:24,138 [INFO] Detected language 'id' with probability 0.99
+2026-02-16 04:01:29,649 [INFO] Processing audio with duration 00:12.500
+2026-02-16 04:01:34,832 [INFO] Detected language 'id' with probability 1.00
+2026-02-16 04:01:40,877 [INFO] Processing audio with duration 00:07.500
+2026-02-16 04:01:46,195 [INFO] Detected language 'id' with probability 1.00
+2026-02-16 04:01:52,098 [INFO] Processing audio with duration 00:05.000
+2026-02-16 04:01:57,482 [INFO] Detected language 'id' with probability 1.00
+2026-02-16 04:02:03,370 [INFO] Processing audio with duration 00:02.500
+2026-02-16 04:02:08,811 [INFO] Detected language 'id' with probability 0.97
+2026-02-16 04:02:14,539 [INFO] Processing audio with duration 00:02.500
+2026-02-16 04:02:20,066 [INFO] Detected language 'id' with probability 1.00
+2026-02-16 04:02:26,328 [INFO] Processing audio with duration 00:10.000
+2026-02-16 04:02:32,713 [INFO] Detected language 'id' with probability 1.00
+2026-02-16 04:02:40,644 [INFO] Processing audio with duration 00:42.500
+2026-02-16 04:02:49,142 [INFO] Detected language 'id' with probability 1.00
+2026-02-16 04:03:25,077 [INFO] Processing audio with duration 00:02.500
+2026-02-16 04:03:39,088 [INFO] Detected language 'id' with probability 0.99
+2026-02-16 04:03:52,768 [INFO] Processing audio with duration 00:25.000
+2026-02-16 04:04:04,953 [INFO] Detected language 'id' with probability 1.00
+2026-02-16 04:04:19,985 [INFO] Processing audio with duration 00:02.500
+2026-02-16 04:04:30,456 [INFO] Detected language 'id' with probability 0.99
+2026-02-16 04:04:40,725 [INFO] Processing audio with duration 00:07.500
+2026-02-16 04:04:50,633 [INFO] Detected language 'id' with probability 0.97
+2026-02-16 04:05:00,897 [INFO] Exported JSON: /Users/670141/Documents/Python/Speech To Text/data/output/sample/sample.json
+2026-02-16 04:05:00,897 [INFO] Exported SRT: /Users/670141/Documents/Python/Speech To Text/data/output/sample/sample.srt
+2026-02-16 04:05:00,897 [INFO] Completed processing for /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a
+2026-02-16 04:07:38,577 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-16 04:07:38,577 [INFO] Found 1 audio files to process
+2026-02-16 04:07:38,650 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_16k_mono.wav
+2026-02-16 04:07:38,798 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_enhanced.wav
+2026-02-16 04:07:38,975 [INFO] Mulai potong berdasarkan ganti speaker...
+2026-02-16 04:07:39,869 [INFO] Durasi audio: 132.08 detik
+2026-02-16 04:07:41,626 [INFO] Ditemukan 2 speaker unik
+2026-02-16 04:07:41,626 [INFO] Buat 3 segmen berdasarkan ganti speaker
+2026-02-16 04:07:41,725 [INFO] Loading Whisper model turbo (compute_type=int8) from models/whisper
+2026-02-16 04:07:41,726 [INFO] Found model.bin in models/whisper/turbo
+2026-02-16 04:07:42,519 [INFO] HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-02-16 04:07:43,132 [INFO] HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-02-16 04:07:44,726 [INFO] Processing audio with duration 00:50.000
+2026-02-16 04:07:49,520 [INFO] Detected language 'id' with probability 1.00
+2026-02-16 04:08:02,844 [INFO] Processing audio with duration 00:42.500
+2026-02-16 04:08:08,136 [INFO] Detected language 'id' with probability 1.00
+2026-02-16 04:08:23,690 [INFO] Processing audio with duration 00:37.500
+2026-02-16 04:08:29,213 [INFO] Detected language 'id' with probability 1.00
+2026-02-16 04:08:43,033 [INFO] Exported JSON: /Users/670141/Documents/Python/Speech To Text/data/output/sample/sample.json
+2026-02-16 04:08:43,033 [INFO] Exported SRT: /Users/670141/Documents/Python/Speech To Text/data/output/sample/sample.srt
+2026-02-16 04:08:43,033 [INFO] Completed processing for /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a
+2026-02-16 04:11:11,212 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-16 04:11:11,212 [INFO] Found 1 audio files to process
+2026-02-16 04:11:11,261 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_16k_mono.wav
+2026-02-16 04:11:11,409 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_enhanced.wav
+2026-02-16 04:11:11,593 [INFO] Mulai potong berdasarkan ganti speaker...
+2026-02-16 04:11:12,460 [INFO] Durasi audio: 132.08 detik
+2026-02-16 04:11:14,223 [INFO] Ditemukan 4 speaker unik
+2026-02-16 04:11:14,223 [INFO] Buat 13 segmen berdasarkan ganti speaker
+2026-02-16 04:11:14,641 [INFO] Loading Whisper model turbo (compute_type=int8) from models/whisper
+2026-02-16 04:11:14,641 [INFO] Found model.bin in models/whisper/turbo
+2026-02-16 04:11:15,407 [INFO] HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-02-16 04:11:16,020 [INFO] HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-02-16 04:11:17,228 [INFO] Processing audio with duration 00:02.500
+2026-02-16 04:11:21,977 [INFO] Detected language 'id' with probability 1.00
+2026-02-16 04:11:27,147 [INFO] Processing audio with duration 00:07.500
+2026-02-16 04:11:32,257 [INFO] Detected language 'id' with probability 0.99
+2026-02-16 04:11:37,888 [INFO] Processing audio with duration 00:12.500
+2026-02-16 04:11:43,191 [INFO] Detected language 'id' with probability 1.00
+2026-02-16 04:11:49,444 [INFO] Processing audio with duration 00:07.500
+2026-02-16 04:11:54,980 [INFO] Detected language 'id' with probability 1.00
+2026-02-16 04:12:01,051 [INFO] Processing audio with duration 00:05.000
+2026-02-16 04:12:06,584 [INFO] Detected language 'id' with probability 1.00
+2026-02-16 04:12:12,616 [INFO] Processing audio with duration 00:02.500
+2026-02-16 04:12:18,198 [INFO] Detected language 'id' with probability 0.97
+2026-02-16 04:12:24,008 [INFO] Processing audio with duration 00:02.500
+2026-02-16 04:12:29,677 [INFO] Detected language 'id' with probability 1.00
+2026-02-16 04:12:35,993 [INFO] Processing audio with duration 00:10.000
+2026-02-16 04:12:44,424 [INFO] Detected language 'id' with probability 1.00
+2026-02-16 04:13:11,645 [INFO] Processing audio with duration 00:42.500
+2026-02-16 04:13:38,412 [INFO] Detected language 'id' with probability 1.00
+2026-02-16 04:14:20,855 [INFO] Processing audio with duration 00:02.500
+2026-02-16 04:14:31,896 [INFO] Detected language 'id' with probability 0.99
+2026-02-16 04:14:42,399 [INFO] Processing audio with duration 00:25.000
+2026-02-16 04:14:52,229 [INFO] Detected language 'id' with probability 1.00
+2026-02-16 04:15:05,397 [INFO] Processing audio with duration 00:02.500
+2026-02-16 04:15:15,390 [INFO] Detected language 'id' with probability 0.99
+2026-02-16 04:15:25,595 [INFO] Processing audio with duration 00:07.500
+2026-02-16 04:15:35,563 [INFO] Detected language 'id' with probability 0.97
+2026-02-16 04:15:45,744 [INFO] Exported JSON: /Users/670141/Documents/Python/Speech To Text/data/output/sample/sample.json
+2026-02-16 04:15:45,745 [INFO] Exported SRT: /Users/670141/Documents/Python/Speech To Text/data/output/sample/sample.srt
+2026-02-16 04:15:45,745 [INFO] Completed processing for /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a
+2026-02-18 07:56:28,062 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-18 07:56:28,062 [INFO] Found 1 audio files to process
+2026-02-18 07:56:28,140 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_16k_mono.wav
+2026-02-18 07:56:28,287 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_enhanced.wav
+2026-02-18 07:56:28,495 [INFO] Mulai potong berdasarkan ganti speaker...
+2026-02-18 07:56:29,630 [INFO] Durasi audio: 132.08 detik
+2026-02-18 07:56:31,498 [INFO] Ditemukan 4 speaker unik
+2026-02-18 07:56:31,498 [INFO] Buat 13 segmen berdasarkan ganti speaker
+2026-02-18 07:56:31,869 [INFO] Loading Whisper model turbo (compute_type=int8) from models/whisper
+2026-02-18 07:56:31,869 [INFO] Found model.bin in models/whisper/turbo
+2026-02-18 07:56:32,364 [INFO] HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-02-18 07:56:32,628 [INFO] HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-02-18 07:56:34,568 [INFO] Processing audio with duration 00:02.500
+2026-02-18 07:56:39,152 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 07:56:43,988 [INFO] Processing audio with duration 00:07.500
+2026-02-18 07:56:49,040 [INFO] Detected language 'id' with probability 0.99
+2026-02-18 07:56:54,520 [INFO] Processing audio with duration 00:12.500
+2026-02-18 07:56:59,863 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 07:57:05,596 [INFO] Processing audio with duration 00:07.500
+2026-02-18 07:57:10,699 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 07:57:16,319 [INFO] Processing audio with duration 00:05.000
+2026-02-18 07:57:21,349 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 07:57:26,953 [INFO] Processing audio with duration 00:02.500
+2026-02-18 07:57:32,103 [INFO] Detected language 'id' with probability 0.97
+2026-02-18 07:57:37,551 [INFO] Processing audio with duration 00:02.500
+2026-02-18 07:57:42,842 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 07:57:48,315 [INFO] Processing audio with duration 00:10.000
+2026-02-18 07:57:53,839 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 07:58:00,207 [INFO] Processing audio with duration 00:42.500
+2026-02-18 07:58:05,890 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 07:58:21,977 [INFO] Processing audio with duration 00:02.500
+2026-02-18 07:58:27,564 [INFO] Detected language 'id' with probability 0.99
+2026-02-18 07:58:33,279 [INFO] Processing audio with duration 00:25.000
+2026-02-18 07:58:38,588 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 07:58:46,757 [INFO] Processing audio with duration 00:02.500
+2026-02-18 07:58:52,111 [INFO] Detected language 'id' with probability 0.99
+2026-02-18 07:58:57,836 [INFO] Processing audio with duration 00:07.500
+2026-02-18 07:59:03,170 [INFO] Detected language 'id' with probability 0.97
+2026-02-18 07:59:08,655 [INFO] Exported JSON: /Users/670141/Documents/Python/Speech To Text/data/output/sample/sample.json
+2026-02-18 07:59:08,655 [INFO] Exported SRT: /Users/670141/Documents/Python/Speech To Text/data/output/sample/sample.srt
+2026-02-18 07:59:08,655 [INFO] Completed processing for /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a
+2026-02-18 08:07:46,049 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-18 08:07:46,050 [INFO] Found 1 audio files to process
+2026-02-18 08:07:46,127 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_16k_mono.wav
+2026-02-18 08:07:46,274 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_enhanced.wav
+2026-02-18 08:07:46,483 [INFO] Mulai potong berdasarkan ganti speaker...
+2026-02-18 08:07:47,599 [INFO] Durasi audio: 132.08 detik
+2026-02-18 08:07:49,469 [INFO] Ditemukan 4 speaker unik
+2026-02-18 08:07:49,469 [INFO] Buat 13 segmen berdasarkan ganti speaker
+2026-02-18 08:07:49,841 [INFO] Loading Whisper model turbo (compute_type=int8) from models/whisper
+2026-02-18 08:07:49,842 [INFO] Found model.bin in models/whisper/turbo
+2026-02-18 08:07:50,289 [INFO] HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-02-18 08:07:50,546 [INFO] HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-02-18 08:07:52,561 [INFO] Processing audio with duration 00:02.500
+2026-02-18 08:07:57,320 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 08:08:02,155 [INFO] Processing audio with duration 00:07.500
+2026-02-18 08:08:06,952 [INFO] Detected language 'id' with probability 0.99
+2026-02-18 08:08:12,181 [INFO] Processing audio with duration 00:12.500
+2026-02-18 08:08:17,055 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 08:08:22,754 [INFO] Processing audio with duration 00:07.500
+2026-02-18 08:08:27,926 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 08:08:33,533 [INFO] Processing audio with duration 00:05.000
+2026-02-18 08:08:39,794 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 08:08:47,466 [INFO] Processing audio with duration 00:02.500
+2026-02-18 08:08:55,073 [INFO] Detected language 'id' with probability 0.97
+2026-02-18 08:09:00,775 [INFO] Processing audio with duration 00:02.500
+2026-02-18 08:09:06,470 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 08:09:13,372 [INFO] Processing audio with duration 00:10.000
+2026-02-18 08:09:19,255 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 08:09:25,534 [INFO] Processing audio with duration 00:42.500
+2026-02-18 08:09:30,981 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 08:09:49,020 [INFO] Processing audio with duration 00:02.500
+2026-02-18 08:09:54,562 [INFO] Detected language 'id' with probability 0.99
+2026-02-18 08:10:00,928 [INFO] Processing audio with duration 00:25.000
+2026-02-18 08:10:07,726 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 08:10:16,195 [INFO] Processing audio with duration 00:02.500
+2026-02-18 08:10:21,866 [INFO] Detected language 'id' with probability 0.99
+2026-02-18 08:10:29,403 [INFO] Processing audio with duration 00:07.500
+2026-02-18 08:10:35,281 [INFO] Detected language 'id' with probability 0.97
+2026-02-18 08:10:41,098 [INFO] Exported JSON: /Users/670141/Documents/Python/Speech To Text/data/output/sample/sample.json
+2026-02-18 08:10:41,098 [INFO] Exported SRT: /Users/670141/Documents/Python/Speech To Text/data/output/sample/sample.srt
+2026-02-18 08:10:41,098 [INFO] Completed processing for /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a
+2026-02-18 08:14:53,398 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-18 08:14:53,399 [INFO] Found 1 audio files to process
+2026-02-18 08:14:53,488 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_16k_mono.wav
+2026-02-18 08:14:53,636 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_enhanced.wav
+2026-02-18 08:14:53,841 [INFO] Mulai potong berdasarkan ganti speaker...
+2026-02-18 08:14:55,029 [INFO] Durasi audio: 132.08 detik
+2026-02-18 08:14:56,914 [INFO] Ditemukan 4 speaker unik
+2026-02-18 08:14:56,914 [INFO] Buat 13 segmen berdasarkan ganti speaker
+2026-02-18 08:14:57,322 [INFO] Loading Whisper model turbo (compute_type=int8) from models/whisper
+2026-02-18 08:14:57,322 [INFO] Found model.bin in models/whisper/turbo
+2026-02-18 08:14:57,837 [INFO] HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-02-18 08:14:58,120 [INFO] HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-02-18 08:15:00,119 [INFO] Processing audio with duration 00:02.500
+2026-02-18 08:15:04,763 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 08:15:09,701 [INFO] Processing audio with duration 00:07.500
+2026-02-18 08:15:14,552 [INFO] Detected language 'id' with probability 0.99
+2026-02-18 08:15:20,419 [INFO] Processing audio with duration 00:12.500
+2026-02-18 08:15:25,871 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 08:15:33,607 [INFO] Processing audio with duration 00:07.500
+2026-02-18 08:15:39,815 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 08:15:46,160 [INFO] Processing audio with duration 00:05.000
+2026-02-18 08:15:51,689 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 08:15:58,200 [INFO] Processing audio with duration 00:02.500
+2026-02-18 08:16:03,868 [INFO] Detected language 'id' with probability 0.97
+2026-02-18 08:16:09,764 [INFO] Processing audio with duration 00:02.500
+2026-02-18 08:16:16,671 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 08:16:23,509 [INFO] Processing audio with duration 00:10.000
+2026-02-18 08:16:29,479 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 08:16:36,078 [INFO] Processing audio with duration 00:42.500
+2026-02-18 08:16:41,854 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 08:16:58,670 [INFO] Processing audio with duration 00:02.500
+2026-02-18 08:17:04,293 [INFO] Detected language 'id' with probability 0.99
+2026-02-18 08:17:10,763 [INFO] Processing audio with duration 00:25.000
+2026-02-18 08:17:16,741 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 08:17:24,593 [INFO] Processing audio with duration 00:02.500
+2026-02-18 08:17:31,029 [INFO] Detected language 'id' with probability 0.99
+2026-02-18 08:17:37,170 [INFO] Processing audio with duration 00:07.500
+2026-02-18 08:17:43,195 [INFO] Detected language 'id' with probability 0.97
+2026-02-18 08:17:49,228 [INFO] Exported JSON: /Users/670141/Documents/Python/Speech To Text/data/output/sample/sample.json
+2026-02-18 08:17:49,228 [INFO] Exported SRT: /Users/670141/Documents/Python/Speech To Text/data/output/sample/sample.srt
+2026-02-18 08:17:49,229 [INFO] Completed processing for /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a
+2026-02-18 08:31:00,782 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-18 08:31:00,783 [INFO] Found 1 audio files to process
+2026-02-18 08:31:00,860 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_16k_mono.wav
+2026-02-18 08:31:01,007 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_enhanced.wav
+2026-02-18 08:31:01,219 [INFO] Mulai potong berdasarkan ganti speaker...
+2026-02-18 08:31:02,400 [INFO] Durasi audio: 132.08 detik
+2026-02-18 08:31:04,309 [INFO] Ditemukan 4 speaker unik
+2026-02-18 08:31:04,309 [INFO] Buat 13 segmen berdasarkan ganti speaker
+2026-02-18 08:31:04,696 [INFO] Loading Whisper model turbo (compute_type=int8) from models/whisper
+2026-02-18 08:31:04,696 [INFO] Found model.bin in models/whisper/turbo
+2026-02-18 08:31:05,298 [INFO] HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-02-18 08:31:05,551 [INFO] HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-02-18 08:31:07,455 [INFO] Processing audio with duration 00:02.500
+2026-02-18 08:31:12,085 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 08:31:45,939 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-18 08:31:45,940 [INFO] Found 1 audio files to process
+2026-02-18 08:31:46,036 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_16k_mono.wav
+2026-02-18 08:31:46,183 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_enhanced.wav
+2026-02-18 08:31:46,357 [INFO] Mulai potong berdasarkan ganti speaker...
+2026-02-18 08:31:47,228 [INFO] Durasi audio: 132.08 detik
+2026-02-18 08:31:48,991 [INFO] Ditemukan 4 speaker unik
+2026-02-18 08:31:48,991 [INFO] Buat 13 segmen berdasarkan ganti speaker
+2026-02-18 08:31:49,377 [INFO] Loading Whisper model turbo (compute_type=int8) from models/whisper
+2026-02-18 08:31:49,377 [INFO] Found model.bin in models/whisper/turbo
+2026-02-18 08:31:49,861 [INFO] HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-02-18 08:31:50,128 [INFO] HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-02-18 08:31:52,130 [INFO] Processing audio with duration 00:02.500
+2026-02-18 08:32:02,785 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-18 08:32:02,785 [INFO] Found 1 audio files to process
+2026-02-18 08:32:02,837 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_16k_mono.wav
+2026-02-18 08:32:02,983 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_enhanced.wav
+2026-02-18 08:32:03,163 [INFO] Mulai potong berdasarkan ganti speaker...
+2026-02-18 08:32:04,055 [INFO] Durasi audio: 132.08 detik
+2026-02-18 08:32:05,773 [INFO] Ditemukan 4 speaker unik
+2026-02-18 08:32:05,773 [INFO] Buat 13 segmen berdasarkan ganti speaker
+2026-02-18 08:32:06,166 [INFO] Loading Whisper model turbo (compute_type=int8) from models/whisper
+2026-02-18 08:32:06,167 [INFO] Found model.bin in models/whisper/turbo
+2026-02-18 08:32:06,654 [INFO] HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-02-18 08:32:06,943 [INFO] HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-02-18 08:32:08,563 [INFO] Processing audio with duration 00:02.500
+2026-02-18 08:39:52,897 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-18 08:39:52,898 [INFO] Found 1 audio files to process
+2026-02-18 08:39:52,975 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_16k_mono.wav
+2026-02-18 08:39:53,122 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_enhanced.wav
+2026-02-18 08:39:53,325 [INFO] Mulai potong berdasarkan ganti speaker...
+2026-02-18 08:39:54,492 [INFO] Durasi audio: 132.08 detik
+2026-02-18 08:39:56,434 [INFO] Ditemukan 4 speaker unik
+2026-02-18 08:39:56,434 [INFO] Buat 13 segmen berdasarkan ganti speaker
+2026-02-18 08:39:56,825 [INFO] Loading Whisper model turbo (compute_type=int8) from models/whisper
+2026-02-18 08:39:56,825 [INFO] Found model.bin in models/whisper/turbo
+2026-02-18 08:39:57,461 [INFO] HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-02-18 08:39:58,209 [INFO] HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-02-18 08:40:00,177 [INFO] Processing audio with duration 00:02.500
+2026-02-18 08:40:04,936 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 08:40:10,237 [INFO] Processing audio with duration 00:07.500
+2026-02-18 08:40:15,092 [INFO] Detected language 'id' with probability 0.99
+2026-02-18 08:40:20,392 [INFO] Processing audio with duration 00:12.500
+2026-02-18 08:40:25,362 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 08:40:31,586 [INFO] Processing audio with duration 00:07.500
+2026-02-18 08:40:36,634 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 08:40:42,255 [INFO] Processing audio with duration 00:05.000
+2026-02-18 08:40:47,357 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 08:40:52,924 [INFO] Processing audio with duration 00:02.500
+2026-02-18 08:40:58,280 [INFO] Detected language 'id' with probability 0.97
+2026-02-18 08:41:03,686 [INFO] Processing audio with duration 00:02.500
+2026-02-18 08:41:08,866 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 08:41:14,322 [INFO] Processing audio with duration 00:10.000
+2026-02-18 08:41:19,578 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 08:41:25,537 [INFO] Processing audio with duration 00:42.500
+2026-02-18 08:41:31,232 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 08:41:46,966 [INFO] Processing audio with duration 00:02.500
+2026-02-18 08:41:52,336 [INFO] Detected language 'id' with probability 0.99
+2026-02-18 08:41:58,203 [INFO] Processing audio with duration 00:25.000
+2026-02-18 08:42:03,617 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 08:42:11,277 [INFO] Processing audio with duration 00:02.500
+2026-02-18 08:42:16,768 [INFO] Detected language 'id' with probability 0.99
+2026-02-18 08:42:22,348 [INFO] Processing audio with duration 00:07.500
+2026-02-18 08:42:27,983 [INFO] Detected language 'id' with probability 0.97
+2026-02-18 08:42:33,932 [INFO] Exported JSON: /Users/670141/Documents/Python/Speech To Text/data/output/sample/sample.json
+2026-02-18 08:42:33,932 [INFO] Exported SRT: /Users/670141/Documents/Python/Speech To Text/data/output/sample/sample.srt
+2026-02-18 08:42:33,932 [INFO] Completed processing for /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a
+2026-02-18 08:51:29,660 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-18 08:51:29,661 [INFO] Found 1 audio files to process
+2026-02-18 08:51:29,769 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_16k_mono.wav
+2026-02-18 08:51:29,914 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_enhanced.wav
+2026-02-18 08:51:30,128 [INFO] Mulai potong berdasarkan ganti speaker...
+2026-02-18 08:51:31,342 [INFO] Durasi audio: 132.08 detik
+2026-02-18 08:51:33,209 [INFO] Ditemukan 4 speaker unik
+2026-02-18 08:51:33,210 [INFO] Buat 13 segmen berdasarkan ganti speaker
+2026-02-18 08:51:33,603 [INFO] Loading Whisper model turbo (compute_type=int8) from models/whisper
+2026-02-18 08:51:33,603 [INFO] Found model.bin in models/whisper/turbo
+2026-02-18 08:51:34,224 [INFO] HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-02-18 08:51:34,481 [INFO] HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-02-18 08:51:36,447 [INFO] Processing audio with duration 00:02.500
+2026-02-18 08:51:41,104 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 08:51:46,001 [INFO] Processing audio with duration 00:07.500
+2026-02-18 08:51:50,783 [INFO] Detected language 'id' with probability 0.99
+2026-02-18 08:51:56,199 [INFO] Processing audio with duration 00:12.500
+2026-02-18 08:52:01,175 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 08:52:06,891 [INFO] Processing audio with duration 00:07.500
+2026-02-18 08:52:11,922 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 08:52:17,466 [INFO] Processing audio with duration 00:05.000
+2026-02-18 08:52:22,565 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 08:52:39,284 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-18 08:52:39,284 [INFO] Found 1 audio files to process
+2026-02-18 08:52:39,383 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_16k_mono.wav
+2026-02-18 08:52:39,529 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_enhanced.wav
+2026-02-18 08:52:39,704 [INFO] Mulai potong berdasarkan ganti speaker...
+2026-02-18 08:52:40,584 [INFO] Durasi audio: 132.08 detik
+2026-02-18 08:52:42,321 [INFO] Ditemukan 4 speaker unik
+2026-02-18 08:52:42,321 [INFO] Buat 13 segmen berdasarkan ganti speaker
+2026-02-18 08:52:42,709 [INFO] Loading Whisper model turbo (compute_type=int8) from models/whisper
+2026-02-18 08:52:42,709 [INFO] Found model.bin in models/whisper/turbo
+2026-02-18 08:52:43,139 [INFO] HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-02-18 08:52:43,406 [INFO] HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-02-18 08:52:44,948 [INFO] Processing audio with duration 00:02.500
+2026-02-18 08:52:49,725 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 08:52:54,857 [INFO] Processing audio with duration 00:07.500

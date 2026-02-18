@@ -28,6 +28,7 @@ import os
 import sys
 import uuid
 import librosa
+from tqdm import tqdm
 from dataclasses import dataclass, asdict
 from pathlib import Path
 from typing import List, Dict, Any, Optional, Tuple
@@ -153,7 +154,7 @@ def speaker_based_segmentation(enhanced_wav: Path, diar_cfg: Dict[str, Any], res
     from sklearn.cluster import AgglomerativeClustering
     clustering = AgglomerativeClustering(
         n_clusters=None,
-        distance_threshold=0.8,  # coba ubah ini kalau terlalu sedikit/banyak speaker
+        distance_threshold=1,  # coba ubah ini kalau terlalu sedikit/banyak speaker
         linkage='ward',
         metric='euclidean'
     )
@@ -322,11 +323,15 @@ def initialize_asr(asr_cfg: Dict[str, Any], models_cfg: Dict[str, Any]):
 
 
 def transcribe_segments(model, segments: List[Segment], asr_cfg: Dict[str, Any]) -> List[Segment]:
+    from tqdm import tqdm
     language_hints = asr_cfg.get("language_hints", ["id", "en"]) or None
     word_timestamps = asr_cfg.get("word_timestamps", False)
     beam_size = asr_cfg.get("beam_size", 5)
 
-    for seg in segments:
+    for seg in tqdm(segments, 
+                    desc="Dengar kata-kata dengan Whisper turbo",  # tulisan di atas jam
+                    unit="potong",                               # satuan: potong
+                    colour="green"):
         logging.debug(f"Transcribing segment {seg.chunk_index}: {seg.path}")
         try:
             # faster-whisper returns (segments, info)
