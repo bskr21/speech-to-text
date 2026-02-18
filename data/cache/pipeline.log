@@ -1090,3 +1090,496 @@ TypeError: get_duration() takes 0 positional arguments but 1 positional argument
 2026-02-18 08:52:44,948 [INFO] Processing audio with duration 00:02.500
 2026-02-18 08:52:49,725 [INFO] Detected language 'id' with probability 1.00
 2026-02-18 08:52:54,857 [INFO] Processing audio with duration 00:07.500
+2026-02-18 08:58:38,993 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-18 08:58:38,993 [INFO] Found 1 audio files to process
+2026-02-18 08:58:39,093 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_16k_mono.wav
+2026-02-18 08:58:39,238 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_enhanced.wav
+2026-02-18 08:58:39,434 [INFO] Mulai potong berdasarkan ganti speaker...
+2026-02-18 08:58:40,314 [INFO] Durasi audio: 132.08 detik
+2026-02-18 08:58:42,149 [INFO] Ditemukan 4 speaker unik
+2026-02-18 08:58:42,149 [INFO] Buat 13 segmen berdasarkan ganti speaker
+2026-02-18 08:58:42,523 [INFO] Loading Whisper model turbo (compute_type=int8) from models/whisper
+2026-02-18 08:58:42,523 [INFO] Found model.bin in models/whisper/turbo
+2026-02-18 08:58:42,970 [INFO] HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-02-18 08:58:43,282 [INFO] HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-02-18 08:58:45,097 [INFO] Processing audio with duration 00:02.500
+2026-02-18 08:58:49,653 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 08:58:54,466 [INFO] Processing audio with duration 00:07.500
+2026-02-18 08:58:59,379 [INFO] Detected language 'id' with probability 0.99
+2026-02-18 08:59:04,758 [INFO] Processing audio with duration 00:12.500
+2026-02-18 08:59:09,903 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 08:59:16,103 [INFO] Processing audio with duration 00:07.500
+2026-02-18 08:59:21,251 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 08:59:27,610 [INFO] Processing audio with duration 00:05.000
+2026-02-18 08:59:34,180 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 08:59:40,580 [INFO] Processing audio with duration 00:02.500
+2026-02-18 08:59:45,955 [INFO] Detected language 'id' with probability 0.97
+2026-02-18 08:59:51,568 [INFO] Processing audio with duration 00:02.500
+2026-02-18 08:59:57,883 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 09:00:04,119 [INFO] Processing audio with duration 00:10.000
+2026-02-18 09:00:09,766 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 09:00:15,662 [INFO] Processing audio with duration 00:42.500
+2026-02-18 09:00:21,210 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 09:00:38,751 [INFO] Processing audio with duration 00:02.500
+2026-02-18 09:00:44,161 [INFO] Detected language 'id' with probability 0.99
+2026-02-18 09:00:49,855 [INFO] Processing audio with duration 00:25.000
+2026-02-18 09:00:55,991 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 09:01:03,934 [INFO] Processing audio with duration 00:02.500
+2026-02-18 09:01:09,503 [INFO] Detected language 'id' with probability 0.99
+2026-02-18 09:01:15,429 [INFO] Processing audio with duration 00:07.500
+2026-02-18 09:01:20,784 [INFO] Detected language 'id' with probability 0.97
+2026-02-18 09:01:26,481 [INFO] Exported JSON: /Users/670141/Documents/Python/Speech To Text/data/output/sample/sample.json
+2026-02-18 09:01:26,481 [INFO] Exported SRT: /Users/670141/Documents/Python/Speech To Text/data/output/sample/sample.srt
+2026-02-18 09:01:26,481 [INFO] Completed processing for /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a
+2026-02-18 09:01:35,291 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-18 09:01:35,292 [INFO] Found 1 audio files to process
+2026-02-18 09:01:35,392 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_16k_mono.wav
+2026-02-18 09:01:35,538 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_enhanced.wav
+2026-02-18 09:01:35,731 [INFO] Mulai potong berdasarkan ganti speaker...
+2026-02-18 09:01:36,629 [INFO] Durasi audio: 132.08 detik
+2026-02-18 09:01:38,358 [INFO] Ditemukan 4 speaker unik
+2026-02-18 09:01:38,358 [INFO] Buat 13 segmen berdasarkan ganti speaker
+2026-02-18 09:01:38,736 [INFO] Loading Whisper model turbo (compute_type=int8) from models/whisper
+2026-02-18 09:01:38,737 [INFO] Found model.bin in models/whisper/turbo
+2026-02-18 09:01:39,180 [INFO] HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-02-18 09:01:39,438 [INFO] HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-02-18 09:01:41,404 [INFO] Processing audio with duration 00:02.500
+2026-02-18 09:01:46,312 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 09:01:51,696 [INFO] Processing audio with duration 00:07.500
+2026-02-18 09:01:57,339 [INFO] Detected language 'id' with probability 0.99
+2026-02-18 09:02:03,115 [ERROR] Failed processing /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1191, in __iter__
+    self.update(n - last_print_n)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1242, in update
+    self.refresh(lock_args=self.lock_args)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1347, in refresh
+    self.display()
+    ~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1495, in display
+    self.sp(self.__str__() if msg is None else msg)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 459, in print_status
+    fp_write('\r' + s + (' ' * max(last_len[0] - len_s, 0)))
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 452, in fp_write
+    fp.write(str(s))
+    ~~~~~~~~^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/utils.py", line 196, in inner
+    return func(*args, **kwargs)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/670141/Documents/Python/Speech To Text/scripts/process_audio.py", line 554, in main
+    process_file(f, cfg, paths, resume=args.resume)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/670141/Documents/Python/Speech To Text/scripts/process_audio.py", line 486, in process_file
+    segments = transcribe_segments(model, segments, asr_cfg)
+  File "/Users/670141/Documents/Python/Speech To Text/scripts/process_audio.py", line 331, in transcribe_segments
+    for seg in tqdm(segments,
+               ~~~~^^^^^^^^^^
+                    desc="Dengar kata-kata dengan Whisper turbo",  # tulisan di atas jam
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                    unit="potong",                               # satuan: potong
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                    colour="green"):
+                    ^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1196, in __iter__
+    self.close()
+    ~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1302, in close
+    self.display(pos=0)
+    ~~~~~~~~~~~~^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1495, in display
+    self.sp(self.__str__() if msg is None else msg)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 459, in print_status
+    fp_write('\r' + s + (' ' * max(last_len[0] - len_s, 0)))
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 452, in fp_write
+    fp.write(str(s))
+    ~~~~~~~~^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/utils.py", line 196, in inner
+    return func(*args, **kwargs)
+BrokenPipeError: [Errno 32] Broken pipe
+2026-02-18 09:02:08,974 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-18 09:02:08,974 [INFO] Found 1 audio files to process
+2026-02-18 09:02:09,071 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_16k_mono.wav
+2026-02-18 09:02:09,218 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_enhanced.wav
+2026-02-18 09:02:09,393 [INFO] Mulai potong berdasarkan ganti speaker...
+2026-02-18 09:02:10,266 [INFO] Durasi audio: 132.08 detik
+2026-02-18 09:02:11,977 [INFO] Ditemukan 4 speaker unik
+2026-02-18 09:02:11,977 [INFO] Buat 13 segmen berdasarkan ganti speaker
+2026-02-18 09:02:12,356 [INFO] Loading Whisper model turbo (compute_type=int8) from models/whisper
+2026-02-18 09:02:12,356 [INFO] Found model.bin in models/whisper/turbo
+2026-02-18 09:02:12,794 [INFO] HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-02-18 09:02:13,155 [INFO] HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-02-18 09:02:14,719 [INFO] Processing audio with duration 00:02.500
+2026-02-18 09:02:19,829 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 09:02:25,223 [INFO] Processing audio with duration 00:07.500
+2026-02-18 09:02:30,664 [INFO] Detected language 'id' with probability 0.99
+2026-02-18 09:02:36,386 [INFO] Processing audio with duration 00:12.500
+2026-02-18 09:02:41,738 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 09:02:47,905 [INFO] Processing audio with duration 00:07.500
+2026-02-18 09:02:53,317 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 09:02:59,501 [ERROR] Failed processing /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1191, in __iter__
+    self.update(n - last_print_n)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1242, in update
+    self.refresh(lock_args=self.lock_args)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1347, in refresh
+    self.display()
+    ~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1495, in display
+    self.sp(self.__str__() if msg is None else msg)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 459, in print_status
+    fp_write('\r' + s + (' ' * max(last_len[0] - len_s, 0)))
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 452, in fp_write
+    fp.write(str(s))
+    ~~~~~~~~^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/utils.py", line 196, in inner
+    return func(*args, **kwargs)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/670141/Documents/Python/Speech To Text/scripts/process_audio.py", line 554, in main
+    process_file(f, cfg, paths, resume=args.resume)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/670141/Documents/Python/Speech To Text/scripts/process_audio.py", line 486, in process_file
+    segments = transcribe_segments(model, segments, asr_cfg)
+  File "/Users/670141/Documents/Python/Speech To Text/scripts/process_audio.py", line 331, in transcribe_segments
+    for seg in tqdm(segments,
+               ~~~~^^^^^^^^^^
+                    desc="Dengar kata-kata dengan Whisper turbo",  # tulisan di atas jam
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                    unit="potong",                               # satuan: potong
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                    colour="green"):
+                    ^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1196, in __iter__
+    self.close()
+    ~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1302, in close
+    self.display(pos=0)
+    ~~~~~~~~~~~~^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1495, in display
+    self.sp(self.__str__() if msg is None else msg)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 459, in print_status
+    fp_write('\r' + s + (' ' * max(last_len[0] - len_s, 0)))
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 452, in fp_write
+    fp.write(str(s))
+    ~~~~~~~~^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/utils.py", line 196, in inner
+    return func(*args, **kwargs)
+BrokenPipeError: [Errno 32] Broken pipe
+2026-02-18 09:05:40,846 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-18 09:05:40,846 [INFO] Found 1 audio files to process
+2026-02-18 09:05:40,920 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_16k_mono.wav
+2026-02-18 09:05:41,066 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_enhanced.wav
+2026-02-18 09:05:41,256 [INFO] Mulai potong berdasarkan ganti speaker...
+2026-02-18 09:05:42,145 [INFO] Durasi audio: 132.08 detik
+2026-02-18 09:05:43,878 [INFO] Ditemukan 4 speaker unik
+2026-02-18 09:05:43,878 [INFO] Buat 13 segmen berdasarkan ganti speaker
+2026-02-18 09:05:44,266 [INFO] Loading Whisper model turbo (compute_type=int8) from models/whisper
+2026-02-18 09:05:44,266 [INFO] Found model.bin in models/whisper/turbo
+2026-02-18 09:05:44,865 [INFO] HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-02-18 09:05:45,126 [INFO] HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-02-18 09:05:47,056 [INFO] Processing audio with duration 00:02.500
+2026-02-18 09:05:51,646 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 09:05:56,788 [INFO] Processing audio with duration 00:07.500
+2026-02-18 09:06:01,686 [INFO] Detected language 'id' with probability 0.99
+2026-02-18 09:06:06,915 [ERROR] Failed processing /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1191, in __iter__
+    self.update(n - last_print_n)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1242, in update
+    self.refresh(lock_args=self.lock_args)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1347, in refresh
+    self.display()
+    ~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1495, in display
+    self.sp(self.__str__() if msg is None else msg)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 459, in print_status
+    fp_write('\r' + s + (' ' * max(last_len[0] - len_s, 0)))
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 452, in fp_write
+    fp.write(str(s))
+    ~~~~~~~~^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/utils.py", line 196, in inner
+    return func(*args, **kwargs)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/670141/Documents/Python/Speech To Text/scripts/process_audio.py", line 554, in main
+    process_file(f, cfg, paths, resume=args.resume)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/670141/Documents/Python/Speech To Text/scripts/process_audio.py", line 486, in process_file
+    segments = transcribe_segments(model, segments, asr_cfg)
+  File "/Users/670141/Documents/Python/Speech To Text/scripts/process_audio.py", line 331, in transcribe_segments
+    for seg in tqdm(segments,
+               ~~~~^^^^^^^^^^
+                    desc="Dengar kata-kata dengan Whisper turbo",  # tulisan di atas jam
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                    unit="potong",                               # satuan: potong
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                    colour="green"):
+                    ^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1196, in __iter__
+    self.close()
+    ~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1302, in close
+    self.display(pos=0)
+    ~~~~~~~~~~~~^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1495, in display
+    self.sp(self.__str__() if msg is None else msg)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 459, in print_status
+    fp_write('\r' + s + (' ' * max(last_len[0] - len_s, 0)))
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 452, in fp_write
+    fp.write(str(s))
+    ~~~~~~~~^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/utils.py", line 196, in inner
+    return func(*args, **kwargs)
+BrokenPipeError: [Errno 32] Broken pipe
+2026-02-18 09:09:04,033 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-18 09:09:04,034 [INFO] Found 1 audio files to process
+2026-02-18 09:09:04,108 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_16k_mono.wav
+2026-02-18 09:09:04,255 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_enhanced.wav
+2026-02-18 09:09:04,462 [INFO] Mulai potong berdasarkan ganti speaker...
+2026-02-18 09:09:05,641 [INFO] Durasi audio: 132.08 detik
+2026-02-18 09:09:07,473 [INFO] Ditemukan 4 speaker unik
+2026-02-18 09:09:07,473 [INFO] Buat 13 segmen berdasarkan ganti speaker
+2026-02-18 09:09:07,852 [INFO] Loading Whisper model turbo (compute_type=int8) from models/whisper
+2026-02-18 09:09:07,853 [INFO] Found model.bin in models/whisper/turbo
+2026-02-18 09:09:08,334 [INFO] HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-02-18 09:09:08,593 [INFO] HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-02-18 09:09:10,518 [INFO] Processing audio with duration 00:02.500
+2026-02-18 09:09:15,093 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 09:09:19,984 [INFO] Processing audio with duration 00:07.500
+2026-02-18 09:09:24,928 [INFO] Detected language 'id' with probability 0.99
+2026-02-18 09:09:30,793 [ERROR] Failed processing /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1191, in __iter__
+    self.update(n - last_print_n)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1242, in update
+    self.refresh(lock_args=self.lock_args)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1347, in refresh
+    self.display()
+    ~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1495, in display
+    self.sp(self.__str__() if msg is None else msg)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 459, in print_status
+    fp_write('\r' + s + (' ' * max(last_len[0] - len_s, 0)))
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 452, in fp_write
+    fp.write(str(s))
+    ~~~~~~~~^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/utils.py", line 196, in inner
+    return func(*args, **kwargs)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/670141/Documents/Python/Speech To Text/scripts/process_audio.py", line 554, in main
+    process_file(f, cfg, paths, resume=args.resume)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/670141/Documents/Python/Speech To Text/scripts/process_audio.py", line 486, in process_file
+    segments = transcribe_segments(model, segments, asr_cfg)
+  File "/Users/670141/Documents/Python/Speech To Text/scripts/process_audio.py", line 331, in transcribe_segments
+    for seg in tqdm(segments,
+               ~~~~^^^^^^^^^^
+                    desc="Dengar kata-kata dengan Whisper turbo",  # tulisan di atas jam
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                    unit="potong",                               # satuan: potong
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                    colour="green"):
+                    ^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1196, in __iter__
+    self.close()
+    ~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1302, in close
+    self.display(pos=0)
+    ~~~~~~~~~~~~^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1495, in display
+    self.sp(self.__str__() if msg is None else msg)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 459, in print_status
+    fp_write('\r' + s + (' ' * max(last_len[0] - len_s, 0)))
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 452, in fp_write
+    fp.write(str(s))
+    ~~~~~~~~^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/utils.py", line 196, in inner
+    return func(*args, **kwargs)
+BrokenPipeError: [Errno 32] Broken pipe
+2026-02-18 09:09:51,089 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-18 09:09:51,089 [INFO] Found 1 audio files to process
+2026-02-18 09:09:51,187 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_16k_mono.wav
+2026-02-18 09:09:51,333 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_enhanced.wav
+2026-02-18 09:09:51,506 [INFO] Mulai potong berdasarkan ganti speaker...
+2026-02-18 09:09:52,381 [INFO] Durasi audio: 132.08 detik
+2026-02-18 09:09:54,093 [INFO] Ditemukan 4 speaker unik
+2026-02-18 09:09:54,093 [INFO] Buat 13 segmen berdasarkan ganti speaker
+2026-02-18 09:09:54,469 [INFO] Loading Whisper model turbo (compute_type=int8) from models/whisper
+2026-02-18 09:09:54,469 [INFO] Found model.bin in models/whisper/turbo
+2026-02-18 09:09:54,887 [INFO] HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-02-18 09:09:55,159 [INFO] HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-02-18 09:09:57,179 [INFO] Processing audio with duration 00:02.500
+2026-02-18 09:10:02,238 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 09:10:07,539 [ERROR] Failed processing /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1191, in __iter__
+    self.update(n - last_print_n)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1242, in update
+    self.refresh(lock_args=self.lock_args)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1347, in refresh
+    self.display()
+    ~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1495, in display
+    self.sp(self.__str__() if msg is None else msg)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 459, in print_status
+    fp_write('\r' + s + (' ' * max(last_len[0] - len_s, 0)))
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 452, in fp_write
+    fp.write(str(s))
+    ~~~~~~~~^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/utils.py", line 196, in inner
+    return func(*args, **kwargs)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/670141/Documents/Python/Speech To Text/scripts/process_audio.py", line 554, in main
+    process_file(f, cfg, paths, resume=args.resume)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/670141/Documents/Python/Speech To Text/scripts/process_audio.py", line 486, in process_file
+    segments = transcribe_segments(model, segments, asr_cfg)
+  File "/Users/670141/Documents/Python/Speech To Text/scripts/process_audio.py", line 331, in transcribe_segments
+    for seg in tqdm(segments,
+               ~~~~^^^^^^^^^^
+                    desc="Dengar kata-kata dengan Whisper turbo",  # tulisan di atas jam
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                    unit="potong",                               # satuan: potong
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                    colour="green"):
+                    ^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1196, in __iter__
+    self.close()
+    ~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1302, in close
+    self.display(pos=0)
+    ~~~~~~~~~~~~^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1495, in display
+    self.sp(self.__str__() if msg is None else msg)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 459, in print_status
+    fp_write('\r' + s + (' ' * max(last_len[0] - len_s, 0)))
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 452, in fp_write
+    fp.write(str(s))
+    ~~~~~~~~^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/utils.py", line 196, in inner
+    return func(*args, **kwargs)
+BrokenPipeError: [Errno 32] Broken pipe
+2026-02-18 09:12:52,172 [INFO] Project root: /Users/670141/Documents/Python/Speech To Text
+2026-02-18 09:12:52,172 [INFO] Found 1 audio files to process
+2026-02-18 09:12:52,271 [INFO] Transcoded: /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a -> /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_16k_mono.wav
+2026-02-18 09:12:52,418 [INFO] Enhanced: /Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_enhanced.wav
+2026-02-18 09:12:52,633 [INFO] Mulai potong berdasarkan ganti speaker...
+2026-02-18 09:12:53,781 [INFO] Durasi audio: 132.08 detik
+2026-02-18 09:12:55,632 [INFO] Ditemukan 4 speaker unik
+2026-02-18 09:12:55,632 [INFO] Buat 13 segmen berdasarkan ganti speaker
+2026-02-18 09:12:56,030 [INFO] Loading Whisper model turbo (compute_type=int8) from models/whisper
+2026-02-18 09:12:56,030 [INFO] Found model.bin in models/whisper/turbo
+2026-02-18 09:12:56,544 [INFO] HTTP Request: GET https://huggingface.co/api/models/mobiuslabsgmbh/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 307 Temporary Redirect"
+2026-02-18 09:12:56,798 [INFO] HTTP Request: GET https://huggingface.co/api/models/dropbox-dash/faster-whisper-large-v3-turbo/revision/main "HTTP/1.1 200 OK"
+2026-02-18 09:12:58,867 [INFO] Processing audio with duration 00:02.500
+2026-02-18 09:13:03,471 [INFO] Detected language 'id' with probability 1.00
+2026-02-18 09:13:08,397 [INFO] Processing audio with duration 00:07.500
+2026-02-18 09:13:13,215 [INFO] Detected language 'id' with probability 0.99
+2026-02-18 09:13:18,434 [ERROR] Failed processing /Users/670141/Documents/Python/Speech To Text/data/input/sample.m4a: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1191, in __iter__
+    self.update(n - last_print_n)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1242, in update
+    self.refresh(lock_args=self.lock_args)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1347, in refresh
+    self.display()
+    ~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1495, in display
+    self.sp(self.__str__() if msg is None else msg)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 459, in print_status
+    fp_write('\r' + s + (' ' * max(last_len[0] - len_s, 0)))
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 452, in fp_write
+    fp.write(str(s))
+    ~~~~~~~~^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/utils.py", line 196, in inner
+    return func(*args, **kwargs)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/670141/Documents/Python/Speech To Text/scripts/process_audio.py", line 554, in main
+    process_file(f, cfg, paths, resume=args.resume)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/670141/Documents/Python/Speech To Text/scripts/process_audio.py", line 486, in process_file
+    segments = transcribe_segments(model, segments, asr_cfg)
+  File "/Users/670141/Documents/Python/Speech To Text/scripts/process_audio.py", line 331, in transcribe_segments
+    for seg in tqdm(segments,
+               ~~~~^^^^^^^^^^
+                    desc="Dengar kata-kata dengan Whisper turbo",  # tulisan di atas jam
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                    unit="potong",                               # satuan: potong
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                    colour="green"):
+                    ^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1196, in __iter__
+    self.close()
+    ~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1302, in close
+    self.display(pos=0)
+    ~~~~~~~~~~~~^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 1495, in display
+    self.sp(self.__str__() if msg is None else msg)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 459, in print_status
+    fp_write('\r' + s + (' ' * max(last_len[0] - len_s, 0)))
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/std.py", line 452, in fp_write
+    fp.write(str(s))
+    ~~~~~~~~^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/tqdm/utils.py", line 196, in inner
+    return func(*args, **kwargs)
+BrokenPipeError: [Errno 32] Broken pipe

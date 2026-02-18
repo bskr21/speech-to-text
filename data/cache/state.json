@@ -8,7 +8,7 @@
     "diarized": true,
     "segments": [
       {
-        "id": "dad7f23e-cefc-41c5-9ecb-17fb77ab7b56",
+        "id": "fbc4bee0-45ed-4f21-99ea-b316b21a6c13",
         "source_file": "/Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_enhanced.wav",
         "chunk_index": 0,
         "start_s": 0,
@@ -20,7 +20,7 @@
         "confidence": null
       },
       {
-        "id": "e1dcfadc-dfed-44dc-b7fe-8989785bdd6a",
+        "id": "cf657c98-c939-4aeb-a2a1-e53e65858c8b",
         "source_file": "/Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_enhanced.wav",
         "chunk_index": 1,
         "start_s": 2.5,
@@ -32,7 +32,7 @@
         "confidence": null
       },
       {
-        "id": "26c3f8ba-da89-4180-b71d-1b3961b61ef7",
+        "id": "b6a32840-7b3f-467b-bc64-2ea8edf56a4f",
         "source_file": "/Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_enhanced.wav",
         "chunk_index": 2,
         "start_s": 10.0,
@@ -44,7 +44,7 @@
         "confidence": null
       },
       {
-        "id": "f87583d1-6917-4190-a2c1-68a0a10f8bdb",
+        "id": "dbc87ac6-950c-4dff-a99a-3fc434f69d63",
         "source_file": "/Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_enhanced.wav",
         "chunk_index": 3,
         "start_s": 22.5,
@@ -56,7 +56,7 @@
         "confidence": null
       },
       {
-        "id": "c3163a73-5339-463b-9ec3-94302c68c7e9",
+        "id": "b9ea166a-19b5-44ae-a3dc-99967f02a77f",
         "source_file": "/Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_enhanced.wav",
         "chunk_index": 4,
         "start_s": 30.0,
@@ -68,7 +68,7 @@
         "confidence": null
       },
       {
-        "id": "6bb00425-bcaf-4765-a554-b8611eb95762",
+        "id": "b5cc8e00-0f67-4f18-bcdd-bc67b8cdbd24",
         "source_file": "/Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_enhanced.wav",
         "chunk_index": 5,
         "start_s": 35.0,
@@ -80,7 +80,7 @@
         "confidence": null
       },
       {
-        "id": "63b1fa0d-2147-4e6e-9566-bb1d42cd508e",
+        "id": "73617e8f-e65a-4f0c-a502-3c8f89d69ee0",
         "source_file": "/Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_enhanced.wav",
         "chunk_index": 6,
         "start_s": 37.5,
@@ -92,7 +92,7 @@
         "confidence": null
       },
       {
-        "id": "41dd96ef-42e9-4a57-8b80-b35c50da3025",
+        "id": "a678bd70-a299-4345-95ba-76370e226850",
         "source_file": "/Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_enhanced.wav",
         "chunk_index": 7,
         "start_s": 40.0,
@@ -104,7 +104,7 @@
         "confidence": null
       },
       {
-        "id": "7e00c31a-ba9c-4d4f-a311-ef1864e2fa61",
+        "id": "3b929a64-4fe2-4924-8b66-a99d9390cfe1",
         "source_file": "/Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_enhanced.wav",
         "chunk_index": 8,
         "start_s": 50.0,
@@ -116,7 +116,7 @@
         "confidence": null
       },
       {
-        "id": "93a837db-98f5-45a2-834a-cce32b28249b",
+        "id": "9a01d1f2-a674-46f3-8ef5-d24c67422ce9",
         "source_file": "/Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_enhanced.wav",
         "chunk_index": 9,
         "start_s": 92.5,
@@ -128,7 +128,7 @@
         "confidence": null
       },
       {
-        "id": "210caa35-2ab4-4a7c-aae4-a1603d844ec5",
+        "id": "6c717911-eadc-4a7c-bc84-c8c8e67ccc90",
         "source_file": "/Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_enhanced.wav",
         "chunk_index": 10,
         "start_s": 95.0,
@@ -140,7 +140,7 @@
         "confidence": null
       },
       {
-        "id": "930effd3-3dfe-42bf-92d2-c35e763db753",
+        "id": "da78d404-fb2e-4ccd-a404-9399eeadb476",
         "source_file": "/Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_enhanced.wav",
         "chunk_index": 11,
         "start_s": 120.0,
@@ -152,7 +152,7 @@
         "confidence": null
       },
       {
-        "id": "f96e0725-573c-4562-942a-70ab0742398c",
+        "id": "e308c08d-a466-41c7-9696-c2125d040c89",
         "source_file": "/Users/670141/Documents/Python/Speech To Text/data/processed/sample/sample_enhanced.wav",
         "chunk_index": 12,
         "start_s": 122.5,
@@ -163,6 +163,7 @@
         "language": null,
         "confidence": null
       }
-    ]
+    ],
+    "transcribed": true
   }
 }

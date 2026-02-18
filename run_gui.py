@@ -15,26 +15,52 @@ def run_pipeline(audio_file):
         "--config", config_path
     ]
 
-    # Kita nggak pakai --resume biar mulai dari nol setiap kali klik
-    # Kalau mau resume, tambahin "--resume" di list di atas
+    # Jalankan proses robot di latar belakang
+    process = subprocess.Popen(
+        cmd,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT,  # gabung error ke output biar kelihatan semua
+        text=True,
+        bufsize=1,                 # baca baris per baris (penting!)
+        universal_newlines=True
+    )
 
-    process = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
-    
-    # Baca output sambil jalan (biar kelihatan progres)
+    # Kosongin kotak teks dulu
     output_text.delete(1.0, tk.END)
     output_text.insert(tk.END, f"Memproses: {os.path.basename(audio_file)}\n\n")
-    
-    for line in process.stdout:
-        output_text.insert(tk.END, line)
-        output_text.see(tk.END)
-    
-    process.wait()
-    
-    if process.returncode == 0:
-        messagebox.showinfo("Done", f"Audio transcribed!\nCek folder: data/output/{os.path.basename(audio_file).split('.')[0]}")
-    else:
-        error = process.stderr.read()
-        messagebox.showerror("Error", f"Description:\n{error}")
+    output_text.see(tk.END)
+
+    # Baca output robot baris per baris (live!)
+    def read_output():
+        while True:
+            line = process.stdout.readline()
+            if not line and process.poll() is not None:
+                break
+            output_text.insert(tk.END, line)
+            output_text.see(tk.END)  # scroll otomatis ke bawah
+
+        # Setelah selesai
+        return_code = process.returncode
+        if return_code == 0:
+            messagebox.showinfo("Selesai!", f"Rapat sudah ditulis!\nCek folder: data/output/{os.path.basename(audio_file).split('.')[0]}")
+        else:
+            messagebox.showerror("Waduh Error", f"Ada masalah nih (kode {return_code})")
+        
+        start_button.config(state="normal")
+        status_label.config(text="Siap untuk rapat berikutnya!")
+
+    # Jalankan baca output di thread terpisah biar GUI nggak beku
+    import threading
+    thread = threading.Thread(target=read_output)
+    thread.start()
+
+stop_requested = False  # seperti bendera merah kecil
+
+def stop_processing():
+    global stop_requested
+    stop_requested = True
+    status_label.config(text="Sedang berhenti... tunggu sebentar ya!")
+    stop_button.config(state="disabled")
 
 def start_processing():
     start_button.config(state="disabled")
@@ -85,6 +111,11 @@ file_label.pack(pady=5)
 start_button = tk.Button(root, text="Start Trascribing!", font=("Arial", 14, "bold"), 
                          command=start_processing, bg="#2196F3", fg="white", state="disabled")
 start_button.pack(pady=20)
+
+# Tombol STOP (awalnya disembunyikan)
+stop_button = tk.Button(root, text="STOP SEKARANG!", font=("Arial", 14, "bold"), 
+                        command=stop_processing, bg="#F44336", fg="white", state="disabled")
+stop_button.pack(pady=5)
 
 # Status
 status_label = tk.Label(root, text="Ready!", font=("Arial", 10), bg="#1e1e1e")
