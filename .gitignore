@@ -15,7 +15,6 @@ data/processed/
 
 # Output files
 data/output/
-data/cache/
 
 # Files
 data/done
@@ -24,6 +23,7 @@ data/queue
 
 # Cache files we don't need on GitHub
 data/cache/
+/Users/670141/Documents/Python/Speech To Text/data/cache/pipeline.log
 __pycache__/
 *.pyc
 *.pyo
