@@ -10,11 +10,16 @@ models/resemblyzer/*pt
 # Input files
 data/input/
 
-# PRocessed files
+# Processed files
 data/processed/
 
 # Output files
 data/output/
+data/cache/
+
+# Files
+data/done
+data/queue
 
 
 # Cache files we don't need on GitHub

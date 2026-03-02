@@ -329,8 +329,8 @@ def transcribe_segments(model, segments: List[Segment], asr_cfg: Dict[str, Any])
     beam_size = asr_cfg.get("beam_size", 5)
 
     for seg in tqdm(segments, 
-                    desc="Dengar kata-kata dengan Whisper turbo",  # tulisan di atas jam
-                    unit="potong",                               # satuan: potong
+                    desc="Listening with Turbo",  # tulisan di atas jam
+                    unit="segment",                               # satuan: potong
                     colour="green"):
         logging.debug(f"Transcribing segment {seg.chunk_index}: {seg.path}")
         try:
