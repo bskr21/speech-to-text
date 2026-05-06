@@ -28,6 +28,7 @@ import os
 import sys
 import uuid
 import librosa
+import time
 from tqdm import tqdm
 from dataclasses import dataclass, asdict
 from pathlib import Path
@@ -489,10 +490,6 @@ def process_file(src_path: Path, cfg: Dict[str, Any], paths: Dict[str, Path], re
         state[file_key] = file_state
         save_checkpoint(state_path, state)
 
-    print("\n=== DEBUG: SPEAKER SEBELUM EXPORT ===")
-    for i, seg in enumerate(segments):
-        print(f"Segment {i}: speaker = {seg.speaker}, text = {seg.text[:30] if seg.text else 'kosong'}")
-
     # 6) Export
     output_dir = paths["output_dir"] / src_path.stem
     ensure_dir(output_dir)
@@ -515,11 +512,14 @@ def main():
     parser.add_argument("--resume", action="store_true", help="Resume from checkpoints")
     args = parser.parse_args()
 
+    # === START THE STOPWATCH HERE ===
+    start_time = time.time()          # ← This is when we start counting
+    logging.info("🚀 Starting audio processing pipeline...")
+
     cfg_path = Path(args.config)
     cfg = load_config(cfg_path)
 
     # Resolve project root relative to the config path
-    # Assume the config lives under Speech to Text/configs/...
     project_root = Path(__file__).parent.parent.resolve()
 
     # Paths
@@ -549,11 +549,30 @@ def main():
         return
 
     logging.info(f"Found {len(files)} audio files to process")
+    
     for f in files:
         try:
             process_file(f, cfg, paths, resume=args.resume)
         except Exception as e:
             logging.exception(f"Failed processing {f}: {e}")
+
+    # === STOP THE STOPWATCH AND SHOW RESULT ===
+    end_time = time.time()
+    elapsed_seconds = end_time - start_time
+    
+    # Turn seconds into Hours : Minutes : Seconds
+    hours = int(elapsed_seconds // 3600)
+    minutes = int((elapsed_seconds % 3600) // 60)
+    seconds = int(elapsed_seconds % 60)
+    
+    time_str = f"{hours:02d}:{minutes:02d}:{seconds:02d}"
+    
+    print("\n" + "="*60)
+    print(f"✅ FINISHED PROCESSING ALL AUDIO FILES!")
+    print(f"⏱️  Total time: {time_str}")
+    print("="*60)
+    
+    logging.info(f"Pipeline completed in {time_str}")
 
 
 if __name__ == "__main__":
